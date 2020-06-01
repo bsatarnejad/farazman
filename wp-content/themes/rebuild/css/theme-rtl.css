@@ -1,0 +1,123 @@
+/* Header ================================================== */	
+.jx-rebuild-left-topbar {
+    text-align: right !important;
+}
+.jx-rebuild-topbar .jx-rebuild-right-topbar {
+    float: left !important;
+}
+.jx-rebuild-right-topbar .email {
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+}
+.header-search-right {
+    float: left !important;
+}
+.header-menu-left {
+    float: right !important;
+}
+.nav_container div {
+    float: right !important;
+    direction: rtl !important;
+}
+/* #Left - Right ================================================== */
+#left, .left {
+    float: right !important;
+}
+#right, .right {
+    float: left !important;
+}
+/* Service Box ================================================== */	
+.jx-rebuild-servicebox-2 {
+	direction:rtl !important;
+}
+.jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item .jx-rebuild-image-wrapper .jx-rebuild-image-title-over span i {
+    margin-left: 0px !important;
+	margin-right:10px !important;
+}
+/* Protfolio ================================================== */	
+.jx-rebuild-protfolio {
+	direction:rtl !important;
+}
+.jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li::after {
+    right: 25px !important;
+}
+/* counter-up ================================================== */	
+.jx-rebuild-counter-up-2 .title {
+	direction:rtl !important;
+}
+.jx-rebuild-counter-up-2 {
+    direction: rtl !important;
+}
+.jx-rebuild-counter-up-2 .jx-rebuild-title i {
+    margin-left: 15px !important;
+	margin-right: 0px !important;
+}
+/* Project Progress ================================================== */	
+.jx-rebuild-project-progress {
+    direction: rtl !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-bg-alternate li strong {
+	float:right !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-contents li strong {
+	float:right !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .jx-rebuild-percentage {
+    padding-right: 10px !important;
+	padding-left:0px !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+    right: -51px !important;
+    left: auto !important;
+	transform: skew(-32deg) !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+    padding-left: 10px !important;
+}
+.jx-rebuild-project-progress .skillbar .percent-bg {
+	float:left !important;
+}
+/* Title Section ================================================== */	
+.jx-rebuild-section-title-2 {
+	direction:rtl !important;
+}
+/* Contact Us ================================================== */	
+.jx-rebuild-contact-form {
+	direction:rtl !important;
+}
+.contact-submit button {
+    padding-right: 50px !important;
+	padding-left: 0px !important;
+}
+.contact-submit button i {
+    right: 0px !important;
+	left:auto !important;
+	border-right: 1px solid #FFF !important;
+	border-left: none !important;
+}
+.jx-rebuild-contact-info .icon {
+	float: right !important;
+	margin-left: 10px !important;
+	margin-right:0px !important;
+}
+.jx-rebuild-contact-info {
+	direction:rtl !important;
+}
+/* Blog ================================================== */	
+.jx-rebuild-blog-2 .date-position {
+	text-align:right;
+}
+.jx-rebuild-blog-2 .content-box {
+	text-align:right;
+}
+.jx-rebuild-blog-2 .hr-line {
+    border-left: 235px solid #000000 !important;
+	border-right: none !important;
+}
+/* Comment Form ================================================== */	
+#commentform {
+	direction:rtl;
+}
+.jx-rebuild-section-title-3 .jx-rebuild-title.small-text {
+    direction: rtl;
+}

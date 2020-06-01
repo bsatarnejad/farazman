@@ -1,0 +1,14 @@
+/* Rebuild ie style */
+/*------Footer Recent Work ------*/
+
+.jx-rebuild-servicelist-1 .icon {
+    margin-right: 12px;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage {
+    width: 200px;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+    width: 100px;
+}

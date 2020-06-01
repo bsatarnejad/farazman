@@ -1,0 +1,121 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: آزمایش بارگذاری پرونده با شکست روبه‌رو شد
+
+---Upload files---
+Redux file was not uploaded. Error: آزمایش بارگذاری پرونده با شکست روبه‌رو شد
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://127.0.0.1:8080/farazman
+Data file = C:\xampp\htdocs\farazman/wp-content/uploads/2020/06/rebuild.xml
+Widget file = C:\xampp\htdocs\farazman/wp-content/uploads/2020/06/widget_data.json
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+rebuild-footer-6 : Sidebar does not exist in theme (moving widget to Inactive)
+
+اطلاعات تماس ReBuild - تماس با شرکت - Imported to Inactive
+
+rebuild-footer-7 : Sidebar does not exist in theme (moving widget to Inactive)
+
+اطلاعات تماس شما - درخواست مشاوره رایگان - Imported to Inactive
+
+ابزارک عمومی : 
+
+جستجو - جستجو - Imported
+نوشته‌های تازه - آخرین مطالب - Imported
+آخرین دیدگاه‌ها - آخرین دیدگاه ها - Imported
+دسته‌ها - دسته بندی ها - Imported
+
+سایدبار فروشگاه : 
+
+جستجوی محصول - جستجوی محصولات - Imported
+فیلتر محصولات براساس قیمت - فیلتر هزینه - Imported
+دسته‌های محصولات - دسته محصولات - Imported
+محصولات براساس امتیاز - محبوبترین محصولات - Imported
+
+سایدبار خدمات : 
+
+فهرست های ReBuild - No Title - Imported
+اطلاعات تماس شما - درخواست مشاوره - Imported
+اطلاعات تماس ReBuild - تماس با شرکت - Imported
+دانلودهای ReBuild - دانلود کاتالوگ - Imported
+
+ابزارک فوتر 01 : 
+
+متن - No Title - Imported
+
+ابزارک فوتر 02 : 
+
+آخرین نوشته های ReBuild - مطالب اخیر - Imported
+
+ابزارک فوتر 03 : 
+
+اطلاعات تماس ReBuild - تماس با شرکت - Imported
+
+ابزارک فوتر 04 : 
+
+مشترک ReBuild - اشتراک در خبرنامه - Imported
+
+
+
+---Importing widgets---
+rebuild-footer-6 : Sidebar does not exist in theme (moving widget to Inactive)
+
+اطلاعات تماس ReBuild - تماس با شرکت - Widget already exists
+
+rebuild-footer-7 : Sidebar does not exist in theme (moving widget to Inactive)
+
+اطلاعات تماس شما - درخواست مشاوره رایگان - Widget already exists
+
+ابزارک عمومی : 
+
+جستجو - جستجو - Widget already exists
+نوشته‌های تازه - آخرین مطالب - Widget already exists
+آخرین دیدگاه‌ها - آخرین دیدگاه ها - Widget already exists
+دسته‌ها - دسته بندی ها - Widget already exists
+
+سایدبار فروشگاه : 
+
+جستجوی محصول - جستجوی محصولات - Widget already exists
+فیلتر محصولات براساس قیمت - فیلتر هزینه - Widget already exists
+دسته‌های محصولات - دسته محصولات - Widget already exists
+محصولات براساس امتیاز - محبوبترین محصولات - Widget already exists
+
+سایدبار خدمات : 
+
+فهرست های ReBuild - No Title - Widget already exists
+اطلاعات تماس شما - درخواست مشاوره - Widget already exists
+اطلاعات تماس ReBuild - تماس با شرکت - Widget already exists
+دانلودهای ReBuild - دانلود کاتالوگ - Widget already exists
+
+ابزارک فوتر 01 : 
+
+متن - No Title - Widget already exists
+
+ابزارک فوتر 02 : 
+
+آخرین نوشته های ReBuild - مطالب اخیر - Widget already exists
+
+ابزارک فوتر 03 : 
+
+اطلاعات تماس ReBuild - تماس با شرکت - Widget already exists
+
+ابزارک فوتر 04 : 
+
+مشترک ReBuild - اشتراک در خبرنامه - Widget already exists
+
+

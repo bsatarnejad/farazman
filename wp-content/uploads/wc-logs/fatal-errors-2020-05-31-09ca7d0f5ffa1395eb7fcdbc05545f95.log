@@ -1,0 +1,88 @@
+2020-05-31T21:06:52+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:07:34+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:07:41+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:07:47+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:07:50+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:09:18+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:10:37+00:00 CRITICAL Uncaught Error: Call to undefined function rwmb_meta() in C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php:98
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(325): rebuild_portfolio(Array, '', 'portfolio')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(sectio...', 'do_shortcode_ta...', '[section_title ...')
+#3 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\helpers\helpers.php(234): do_shortcode('[section_title ...')
+#4 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\templates\shortcodes\vc_column.php(44): wpb_js_remove_wpautop('[section_title ...')
+#5 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(473): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\farazman\wp-content\plugins\js-composer\include\classes\shortcodes\shortcodes.php(453): WPBakeryShortCode->loadTempla در C:\xampp\htdocs\farazman\wp-content\plugins\rebuild-framework\assets\shortcodes\portfolio.php روی خط 98
+
+2020-05-31T21:11:12+00:00 CRITICAL Uncaught Error: Call to undefined method Eight_sec_About_Theme::eight_sec_call_plugin_api() in C:\xampp\htdocs\farazman\wp-content\themes\eight-sec-Yekan\inc\admin-panel\theme-info.php:397
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\class-wp-hook.php(288): Eight_sec_About_Theme->eight_sec_plugin_activation_callback('')
+#1 C:\xampp\htdocs\farazman\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\farazman\wp-admin\admin-ajax.php(175): do_action('wp_ajax_eight_s...')
+#4 {main}
+  thrown در C:\xampp\htdocs\farazman\wp-content\themes\eight-sec-Yekan\inc\admin-panel\theme-info.php روی خط 397
+
+2020-05-31T21:30:38+00:00 CRITICAL Uncaught Error: Call to undefined method Eight_sec_About_Theme::eight_sec_call_plugin_api() in C:\xampp\htdocs\farazman\wp-content\themes\eight-sec-Yekan\inc\admin-panel\theme-info.php:397
+Stack trace:
+#0 C:\xampp\htdocs\farazman\wp-includes\class-wp-hook.php(288): Eight_sec_About_Theme->eight_sec_plugin_activation_callback('')
+#1 C:\xampp\htdocs\farazman\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\farazman\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\farazman\wp-admin\admin-ajax.php(175): do_action('wp_ajax_eight_s...')
+#4 {main}
+  thrown در C:\xampp\htdocs\farazman\wp-content\themes\eight-sec-Yekan\inc\admin-panel\theme-info.php روی خط 397
+

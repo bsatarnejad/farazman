@@ -1,0 +1,71 @@
+
+---Upload files---
+Customizer file was not uploaded. Error: آزمایش بارگذاری پرونده با شکست روبه‌رو شد
+
+---Upload files---
+Redux file was not uploaded. Error: آزمایش بارگذاری پرونده با شکست روبه‌رو شد
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://127.0.0.1:8080/farazman
+Data file = C:\xampp\htdocs\farazman/wp-content/uploads/2020/06/wordpress.2018-07-29.xml
+Widget file = C:\xampp\htdocs\farazman/wp-content/uploads/2020/06/demo.hamyarwp.com-eight-sec-widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Sidebar : 
+
+جستجو - No Title - Widget already exists
+نوشته‌های تازه - مطالب اخیر - Imported
+آخرین دیدگاه‌ها - اخرین دیدگاه - Imported
+ztjalali_archive - No Title - Site does not support widget
+دسته‌ها - دسته بندی مطالب - Imported
+
+Footer One : 
+
+متن - همیار وردپرس - Imported
+
+Footer Two : 
+
+نوشته‌های تازه - مطالب اخیر - Imported
+
+Footer Three : 
+
+برگه‌ها - برگه های مفید - Imported
+
+Footer Four : 
+
+متن - تماس با ما - Imported
+
+
+
+---Importing widgets---
+Sidebar : 
+
+جستجو - No Title - Widget already exists
+نوشته‌های تازه - مطالب اخیر - Widget already exists
+آخرین دیدگاه‌ها - اخرین دیدگاه - Widget already exists
+ztjalali_archive - No Title - Site does not support widget
+دسته‌ها - دسته بندی مطالب - Widget already exists
+
+Footer One : 
+
+متن - همیار وردپرس - Widget already exists
+
+Footer Two : 
+
+نوشته‌های تازه - مطالب اخیر - Widget already exists
+
+Footer Three : 
+
+برگه‌ها - برگه های مفید - Widget already exists
+
+Footer Four : 
+
+متن - تماس با ما - Widget already exists
+
+

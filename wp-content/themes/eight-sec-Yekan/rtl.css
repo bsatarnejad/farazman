@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/WebYekan.eot');
+    src: url('fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/WebYekan.woff') format('woff'),
+         url('fonts/WebYekan.ttf') format('truetype'),
+         url('fonts/WebYekan.svg#WebYekan') format('svg');
+}
+/*
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: bold;
+  src: url('fonts/BMitraBold.woff') format('woff');
+}
+@font-face {
+  font-family: mitra;
+  font-style: normal;
+  font-weight: normal;
+  src: url('fonts/BMitra.woff') format('woff');
+}
+*/
+body, button, input, select, textarea {
+    font-family: Yekan;
+}
+.team-wrap .team-content-img .team-content-wrap .team-title {
+    font-family: Yekan;
+}
+.eight_sec_plx_about_section .section-title h2, .eight_sec_plx_portfolio_section .section-title h2, .eight_sec_plx_team_section h2.team-sec, .eight_sec_plx_cta_section h2.cta-sec, .eight_sec_plx_blog_section h2.blog-sec, .eight_sec_plx_testimonial_section h2.testimonial-sec, .eight_sec_plx_contact_section h2.contact-sec {
+    font-family: Yekan;
+}
+.eight_sec_plx_portfolio_section .portfolio-wrap .portfolio-content-img .portfolio-content-wrap {
+    font-family: Yekan;
+}
+.about-service .about-title {
+    font-family: Yekan;
+}
+.eight_sec_plx_slider_section .slide-caption {
+    font-family: Yekan;
+}
+.eight_sec_plx_slider_section .slide-caption .slide-content p {
+    font-family: Yekan;
+}
+.blog-content-wrap .blog-title {
+    font-family: Yekan;
+}
+.eight_sec_plx_blog_section .blog-footer {
+    font-family: Yekan;
+}
+.element-item .ed-grid-hover h6 {
+
+    font-family: Yekan;
+}
+.element-item .ed-readmore > a {
+    font-family: Yekan;
+}
+.archive article .ed-readmore a {
+    font-family: Yekan;
+}
+article .entry-title {
+    font-family: Yekan;
+}
+.site-header .main-navigation {
+    text-align: right;
+}
+.blog-wrap {
+    text-align: right;
+}
+.widget ul li::before {
+    right: 0;
+    left: inherit;
+}
+.widget ul li {
+    padding-right: 15px;
+    padding-left: inherit;
+}
+.single .entry-title::after, .widget-title::after, .page-title::after {
+    right: 0;
+    left: inherit;
+}
+.blog-content-wrap .blog-title a::after {
+    right: 0;
+    left: inherit;
+}
+.single .entry-title, .widget-title, .page-title {
+    font-family: Yekan;
+}
+#primary {
+    float: right;
+    padding-left: 30px;
+    padding-right: inherit;
+}
+.widget ul li::before {
+    content: "\f104";
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    font-family: Yekan;
+}
+.site-header .main-navigation {
+    font-family: Yekan;
+}
+.bttn {
+    font-family: Yekan;
+}
+.eight_sec_plx_blog_section .bttn, .eight_sec_plx_team_section .bttn {
+    font-family: Yekan;
+}
+.site-footer .site-info {
+    font-family: Yekan;
+}
+.site-header .main-navigation {
+    text-align: left;
+}
+.widget_search .search-form label {
+    float: right;
+}
+.site-header .main-navigation ul ul {
+    right: 0;
+    left: inherit;
+	text-align: right;
+
+}
+.site-header .main-navigation ul ul ul {
+
+    right: 100%;
+    left: inherit;
+
+}
+@media screen and (max-width: 920px)
+{
+.site-header .main-navigation {
+    text-align: right;
+}	
+}
+.eight_sec_plx_contact_section .contact-form form p, .eight_sec_plx_contact_section .contact-form form div.ufbl-form-field-wrap {
+    text-align: right;
+
+}

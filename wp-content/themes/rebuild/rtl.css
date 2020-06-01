@@ -1,0 +1,1207 @@
+/*
+Theme Name: ReBuild
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+http://codex.wordpress.org/Right_to_Left_Language_Support
+*/
+@font-face{font-family:'rebuild';src:url('fonts/rebuild.eot?#') format('eot'),url('fonts/rebuild.woff') format('woff'),
+url('fonts/rebuild.ttf') format('truetype')}
+* {
+    font-family: rebuild;
+}
+h1,h2,h3,h4,h5,h6,p,a,li,ul,pre,.jx-rebuild-header .header-info .address, .jx-rebuild-header .header-info .date,.jx-rebuild-header .header-info .toll-free-number,textarea,input[type="text"], input[type="search"], input[type="password"], input[type="email"], textarea, input[type="tel"],.comment-form #comment-submit,
+.jx-rebuild-header .toll-free,.jx-rebuild-header-search .jx-rebuild-form-wrapper input,.jx-rebuild-tagline-box-2 .button,.jx-rebuild-tagline-box-2 h2,.jx-rebuild-section-title-1 .jx-rebuild-title,
+.jx-rebuild-section-title-1 .jx-rebuild-subtitle,.jx-rebuild-servicebox-1 .title,.jx-rebuild-servicebox-1 .description,.jx-rebuild-servicelist-2 .category,.jx-rebuild-servicelist-3 .category,.jx-rebuild-servicelist-1 .discription,.jx-rebuild-servicelist-2 .discription,.jx-rebuild-servicelist-3 .discription,
+.jx-rebuild-section-title-2 .jx-rebuild-title,.jx-rebuild-title,.jx-rebuild-badge-text,.jx-rebuild-project-progress .jx-rebuild-project-image .count-number,.jx-rebuild-project-progress .jx-rebuild-project-image .progress,.jx-rebuild-quote-smallbox .jx-heading h4,.wpcf7-text,.wpcf7-textarea,.wpcf7-submit,.jx-rebuild-counter-up .counter_text,.jx-rebuild-servicelist-1 .category,.jx-rebuild-servicelist-2 .category,.jx-rebuild-servicelist-3 .category,
+.jx-rebuild-accordion-1 .open .title,.jx-rebuild-accordion-2 .open .title,.jx-rebuild-accordion-4 .open .title,.jx-rebuild-accordion-3 .open .title,.jx-rebuild-accordion-1 .description,.jx-rebuild-accordion-2 .description,.jx-rebuild-accordion-3 .description,.jx-rebuild-accordion-4 .description,
+.jx-rebuild-footer-1 .jx-rebuild-footer-title,.jx-rebuild-widget-request-quote,.jx-rebuild-widget-request-quote .title,.jx-rebuild-widget-request-quote .number,.jx-rebuild-widget-request-quote .jx-rebuild-quote-button a,.textwidget,
+.jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage,.jx-rebuild-project-view-contents,.jx-rebuild-counter-up .count_number,.jx-rebuild-accordion-3 .title,
+.jx-rebuild-footer-section .jx-rebuild-widget-newsletter .jx-rebuild-form-wrapper input,.jx-rebuild-footer-section .jx-rebuild-widget-newsletter .jx-rebuild-form-wrapper input,
+.jx-rebuild-tagline-box-1 h2,.jx-rebuild-servicebox-2.box_padding .description,.jx-rebuild-grid-counter.jx-light .count-text,
+.jx-rebuild-grid-counter.jx-light .count-text,.jx-rebuild-blog-2 .date_month,.jx-rebuild-blog-2 .date,.jx-rebuild-blog-2 .description,#sidebar .widget_product_search input[type='submit'],
+.jx-rebuild-tagline-box h2,.jx-rebuild-subscribeletter h2,.jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"], .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"],
+.jx-rebuild-tagline-box input[type="submit"],.jx-rebuild-tagline-box h3,.jx-rebuild-servicelist-2 .title,.jx-rebuild-tagline-box-3.jx-rebuild-light h2,.jx-rebuild-team-member-1 .name,.jx-rebuild-team-member-1 .post,.jx-rebuild-team-member-2 .name,.jx-rebuild-team-member-2 .post,.jx-rebuild-team-member-3 .name,.jx-rebuild-team-member-3 .post,.jx-rebuild-team-member-1 .name,.jx-rebuild-tagline-box-4 h1,.jx-rebuild-servicelist-3 .title,.jx-rebuild-form-text,.jx-rebuild-form-textarea,
+.contact-submit button,.jx-rebuild-left-topbar,.jx-rebuild-footer-1 .jx-rebuild-copy-right,.jx-rebuild-tetimonials-2 .description,.jx-rebuild-tetimonials-3 .description,.jx-rebuild-tetimonials-2 .name,.jx-rebuild-tetimonials-3 .name,
+.jx-rebuild-tetimonials-2 .position,.jx-rebuild-tetimonials-3 .position,.jx-rebuild-flipbox-1 .jx-rebuild-flipbox-backitem .description,.jx-rebuild-price-1 .price span.top,.jx-rebuild-price-1 .price span.top,.jx-rebuild-price-1 .title,.jx-rebuild-price-2 .title,.jx-rebuild-price-3 .title,.jx-rebuild-price-4 .title,.jx-rebuild-price-2 .price span.top,.jx-rebuild-price-3 .price span.top,.jx-rebuild-price-4 .price span.top,.jx-rebuild-price-1 .price span.top,.jx-rebuild-price-4 .price .permonth,
+.jx-rebuild-price-3 .price .permonth,.jx-rebuild-price-2 .price .permonth,.jx-rebuild-price-4 .price,.jx-rebuild-price-5.jx-rebuild-dark .title,.jx-rebuild-price-5 .price .subtitle,.jx-rebuild-page-title span,.jx-rebuild-skillsbar-3 .skillbar-title span,.jx-rebuild-servicebox-2 .description,.jx-rebuild-v-timeline .item-position,
+.jx-rebuild-tetimonials-1 .description,.jx-rebuild-tetimonials-2 .description,.jx-rebuild-tetimonials-1 .jx-rebuild-testimonial-details .name,.jx-rebuild-tetimonials-1 .jx-rebuild-testimonial-details .position,
+table.style_b td,.jx-rebuild-content-box .jx-rebuild-item h5,.jx-rebuild-breadcrumb,.jx-rebuild-error-page .jx-rebuild-error-msg h1,.minimal-light .esg-filterbutton,.jx-rebuild-project-nav .jx-rebuild-project-title,#sidebar .widget_search input.search-field,#sidebar .widget_search input.search-submit,.jx-rebuild-share-box-icon .share-title,.jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-date,.jx-rebuild-contact-info .phone, .jx-rebuild-contact-info .fax, .jx-rebuild-contact-info .date-time,.woocommerce .widget_price_filter .price_slider_amount .button,.woocommerce-page.woocommerce ul.products li.product h3,.woocommerce div.product .product_title,.woocommerce-page.woocommerce div.product form.cart .button,.product_meta,.woocommerce .woocommerce-message,.jx-rebuild-page-title,.tp-bullet-title
+
+{font-family:rebuild !important;}
+.woocommerce-page.woocommerce div.product form.cart .button {
+    vertical-align: middle;
+    float: right;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.woocommerce div.product form.cart div.quantity {
+    float: right;
+    margin: 0 0px 0 4px;
+}
+.jx-rebuild-flipbox-1 .jx-rebuild-flipbox-backitem .readmore a .plus-icon:hover {
+    padding-top: 6px;
+}
+.grid-item .jx-rebuild-portfolio-plus-hover a {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.jx-rebuild-price-4 .price {
+    font-size: 30px;
+}
+.jx-rebuild-price-4 .jx-rebuild-price {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+select.error, input.error {
+    border-color: #B94A48;
+    background-position: left 5px center !important;
+}
+.jx-rebuild-price-1 .price span.top {
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+margin-right: 4px;
+}
+.jx-rebuild-quote-smallbox.has-icon h4,.jx-rebuild-quote-smallbox .jx-heading h4 {
+    text-align: right !important;
+}
+.grid-item .jx-rebuild-portfolio-plus-hover i:after {
+    right: 3px;
+    left: inherit;
+}
+.jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"], .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+    font-size: 14px;
+}
+.jx-rebuild-newsletter-submit input[type=submit]:hover {
+    border: 2px solid #000;
+    color: #000 !important;
+    background: #AAA;
+}
+.jx-rebuild-tagline-box input[type="submit"] {
+    font-size: 17px !important;
+}
+.jx-rebuild-tetimonials-1 .description {
+    padding: 34px 23px;
+    margin-bottom: 20px;
+    text-align: right;
+    direction: rtl;
+}
+.flex-viewport {
+    direction: ltr;
+}
+.jx-rebuild-blog-2 .date-position {
+    text-align: right;
+    padding-right: 4px;
+}
+.jx-rebuild-grid-counter.jx-light .jx-grid-count .title {
+    color: #fff !important;
+    font-family: rebuild;
+    float: right;
+}
+.jx-rebuild-footer-section .jx-rebuild-widget-newsletter .jx-rebuild-form-wrapper input {
+    padding: 10px 13px;
+    width: 80% !important;
+    margin-left: 4px;
+    float: right;
+    font-size: 12px !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+    padding-left: 1px !important;
+    float: right;
+    font-size: 18px !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image span {
+    float: right;
+    font-size: 20px !important;
+}
+
+.jx-rebuild-accordion-3.jx-doubled-width .circle .title .jx-rebuild-accordion-icon::after,
+.jx-rebuild-accordion-3.jx-doubled-width .circle .open > .title .jx-rebuild-accordion-icon::after {
+    font-family: "fontawesome";
+    content: "\f104";
+}
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+/* Header ================================================== */	
+
+
+.jx-rebuild-left-topbar {
+    text-align: right !important;
+}
+.jx-rebuild-topbar .jx-rebuild-right-topbar {
+    float: left !important;
+}
+.jx-rebuild-right-topbar .email {
+    padding-right: 0px !important;
+    padding-left: 20px !important;
+}
+.header-search-right {
+    float: left !important;
+}
+.header-menu-left {
+    float: right !important;
+}
+.nav_container div {
+    float: right !important;
+    direction: rtl !important;
+}
+
+
+.jx-rebuild-header-1 .container .columns , .jx-rebuild-header-5 .container .columns {
+    float: right;
+}
+.jx-rebuild-header .header-info {
+    float: left;
+}
+.jx-rebuild-header .header-info ul li {
+    float: right;
+}
+.jx-rebuild-header .header-info .icon {
+	float:right;
+}
+.jx-rebuild-header .toll-free i {
+    padding-left: 2px;
+	padding-right: 0px;
+    -ms-transform: rotate(-105deg);
+    -webkit-transform: rotate(-105deg);
+    transform: rotate(-105deg);
+}
+.jx-rebuild-header .header-info .toll-free-number {
+	border-right: 1px solid #ccc;
+	border-left: none;
+	padding-right: 34px;
+	padding-left: 0px;
+	direction:ltr;
+}
+.jx-rebuild-header .toll-free {
+    padding-right: 34px;
+}
+
+.jx-rebuild-header-4 .header-menu-right {
+    display: inline;
+    float: left;
+    padding-right: 0px;
+	padding-left:25px;
+}
+
+
+/* Menu ================================================== */	
+
+.jx-rebuild-mainmenu li {
+    text-align: right;
+}
+.jx-rebuild-mainmenu li i.menu-icon {
+    margin-left: 7px;
+	margin-right:0px;
+}
+.jx-rebuild-mainmenu .submenu li.menu-item-has-children > a::after {
+    content: "\f104";
+    left: 0px;
+	right:auto;
+}
+.jx-rebuild-mainmenu > li.menu-item-has-children::after {
+	left: 8px;
+	right:auto;
+}
+
+.jx-rebuild-mainmenu > li.no-mega > .submenu {
+    right: 0px;
+    left: auto;
+}
+.jx-rebuild-mainmenu .submenu li li ul {
+	right: 235px;
+	left:0px;
+}
+
+.jx-rebuild-mainmenu > li.menu-item-has-children.menu-mega > a::after {
+	left: 8px;
+	right: auto;
+}
+
+
+
+/* #Left - Right ================================================== */
+#left, .left {
+    float: right !important;
+}
+#right, .right {
+    float: left !important;
+}
+
+
+
+/* FOOTER ================================================== */
+
+
+.jx-rebuild-footer .container .columns {
+	float: right;
+}
+.jx-rebuild-footer-section .jx-rebuild-widget-recent-post .image {
+    float: right;
+}
+.jx-rebuild-footer-section .jx-rebuild-widget-recent-post .post-content {
+    padding-left: 0px;
+	padding-right: 105px;
+}
+.jx-rebuild-sidebar-address li i {
+    float: right;
+    margin-left: 14px;
+	margin-right: 0px;
+}
+.jx-rebuild-widget-request-quote .jx-rebuild-quote-button {
+    right: -18px;
+	left:0px;
+}
+.jx-rebuild-widget-request-quote.jx-rebuild-smaller .jx-rebuild-left-border {
+	float:right;
+}
+.jx-rebuild-widget-request-quote .or {
+	float:right;
+}
+.jx-rebuild-widget-request-quote.jx-rebuild-smaller .jx-rebuild-right-border {
+	float: right;
+}
+
+
+.jx-rebuild-sub-footer .container .columns {
+	float: right;
+}
+.jx-rebuild-footer-1 .jx-rebuild-copy-right {
+	text-align:right;
+}
+.jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul {
+	float:left;
+}
+
+
+
+/* Service Box ================================================== */	
+.jx-rebuild-servicebox-2 {
+	direction:rtl !important;
+}
+.jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item .jx-rebuild-image-wrapper .jx-rebuild-image-title-over span i {
+    margin-left: 0px !important;
+	margin-right:10px !important;
+}
+.jx-rebuild-servicelist-4 .icon {
+    float: right;
+}
+.jx-rebuild-servicelist-2 .icon {
+    float: right;
+}
+.jx-rebuild-servicelist-2 .icon.no-radius {
+    margin-left: 20px;
+	margin-right:0px;
+}
+
+.jx-rebuild-servicelist-2 .icon.radius {
+     margin-left: 20px;
+	 margin-right:0px;
+}
+
+.jx-rebuild-servicelist-3 .icon {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+
+.jx-rebuild-single-point.is-open .jx-rebuild-more-info.jx-rebuild-top {
+    text-align: right;
+}
+
+.jx-rebuild-float {
+    float: right;
+}
+.jx-rebuild-servicelist-1 .icon {
+    margin-left: 12px;
+	margin-right: 0px;
+}
+
+
+/* Protfolio ================================================== */	
+.jx-rebuild-protfolio {
+	direction:rtl !important;
+}
+.jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li::after {
+    right: 25px !important;
+}
+/* counter-up ================================================== */	
+.jx-rebuild-counter-up-2 .title {
+	direction:rtl !important;
+}
+.jx-rebuild-counter-up-2 {
+    direction: rtl !important;
+}
+.jx-rebuild-counter-up-2 .jx-rebuild-title i {
+    margin-left: 15px !important;
+	margin-right: 0px !important;
+}
+
+/* Count up ================================================== */
+
+.countup_hr {
+    border-left: 41px solid #000;
+	border-right: none;
+}
+
+/* Project Progress ================================================== */	
+.jx-rebuild-project-progress {
+    direction: rtl !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-bg-alternate li strong {
+	float:right !important;
+	padding-left:5px;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-contents li strong {
+	float:right !important;
+	padding-left:5px;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .jx-rebuild-percentage {
+    padding-right: 10px !important;
+	padding-left:0px !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+    right: -51px !important;
+    left: auto !important;
+	transform: skew(-32deg) !important;
+}
+.jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+    padding-left: 5px !important;
+	float:right;
+}
+
+.jx-rebuild-project-progress .skillbar .percent-bg {
+	float:right !important;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-image span {
+	float:right;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage {
+    right: 30px;
+    left: 0px;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+	float:right;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+	float:right;
+}
+
+.jx-rebuild-project-progress .jx-rebuild-project-view-image .image-hover {
+	right: -107px !important;
+	left: auto !important;
+	transform: skew(-32deg) !important;
+}
+
+/* Title Section ================================================== */	
+.jx-rebuild-section-title-2 {
+	direction:rtl !important;
+}
+/* Contact Us ================================================== */	
+.jx-rebuild-contact-form {
+	direction:rtl !important;
+}
+.contact-submit button {
+    padding-right: 50px !important;
+	padding-left: 0px !important;
+}
+.contact-submit button i {
+    right: 0px !important;
+	left:auto !important;
+	border-right: 1px solid #FFF !important;
+	border-left: none !important;
+}
+.jx-rebuild-contact-info .icon {
+	float: right !important;
+	margin-left: 10px !important;
+	margin-right:0px !important;
+}
+.jx-rebuild-contact-info {
+	direction:rtl !important;
+}
+.jx-rebuild-contact-form .contact-full-name {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+
+
+
+.jx-rebuild-quote-smallbox form {
+    direction: rtl;
+}
+
+/* Blog ================================================== */	
+.jx-rebuild-blog-2 .date-position {
+	text-align:right;
+}
+.jx-rebuild-blog-2 .content-box {
+	text-align:right;
+}
+.jx-rebuild-blog-2 .hr-line {
+    border-left: 235px solid #000000 !important;
+	border-right: none !important;
+}
+/* Comment Form ================================================== */	
+#commentform {
+	direction:rtl;
+}
+.jx-rebuild-section-title-3 .jx-rebuild-title.small-text {
+    direction: rtl;
+}
+/* Tetimonials ================================================== */
+
+
+.jx-rebuild-tetimonials-1 .description::before {
+    content: '\f10e';
+	margin-left: 10px;
+	margin-right:0px;
+    float: right;
+}
+
+.jx-rebuild-tetimonials-2 i {
+    margin-left: 10px;
+	margin-right: 0px;
+}
+
+.jx-rebuild-tetimonials-3 .description::before {
+	content: '\f10e';
+	margin-left: 10px;
+	margin-right:0px;
+	float: right;
+}
+
+.jx-rebuild-tetimonials-4 .description::before {
+	content: '\f10e';
+    margin-left: 20px;
+	margin-right:0px;
+    float: right;
+}
+
+.jx-rebuild-tetimonials-4 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+    float: right;
+    margin-left: 20px;
+	margin-right:0px;
+}
+
+.jx-rebuild-tetimonials-4 .description::after {
+    right: 10%;
+	left: 0px;
+	border-width: 18px 0px 0px 15px;
+}
+
+.jx-rebuild-tetimonials-5 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+    float: right;
+    margin-left: 20px;
+    margin-right: 60px;
+}
+
+.jx-rebuild-tetimonials-5 .description::before {
+    content: '\f10e';
+}
+
+.jx-rebuild-tetimonials-6 .description::before {
+	content: '\f10e';
+	margin-left: 20px;
+	margin-right: 0px;
+	float: right;
+}
+
+.jx-rebuild-tetimonials-6 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+    float: right;
+    margin-left: 40px;
+	margin-right: 10px;
+}
+
+.jx-rebuild-tetimonials-6 .description::after {
+    right: 10%;
+	left: 0%;
+}
+
+
+
+
+
+
+/* Accordion ================================================== */
+
+.jx-rebuild-accordion-3 .circle.plus_sign .jx-rebuild-accordion-icon::after {
+    float: right !important;
+    border-left: 5px solid #f9f9f9 !important;
+	border-right: none !important;
+    margin-left: 15px !important;
+    margin-right: 0px !important;
+}
+
+.jx-rebuild-accordion-3 .circle .jx-rebuild-accordion-icon::after {
+    float: right !important;
+    border-left: 5px solid #f9f9f9 !important;
+	border-right: none !important;
+    margin-left: 15px !important;
+    margin-right: 0px !important;
+}
+
+.jx-rebuild-accordion .none .title span {
+	right: 0px !important;
+}
+.jx-rebuild-accordion .none .title {
+	padding: 15px 36px 15px 0px !important;
+}
+.jx-rebuild-accordion .none .title .jx-rebuild-accordion-icon::after {
+    float: left !important;
+    margin: 0px 0px 0px 3px !important;
+}
+.jx-rebuild-accordion .circle .title {
+    text-align: right !important;
+}
+.jx-rebuild-accordion .circle [data-accordion] [data-control] {
+	padding-left: 0px !important;
+	padding-right: 10px !important;
+}
+.jx-rebuild-accordion .circle .jx-rebuild-accordion-icon::after {
+    float: right !important;
+    padding: 2px 0px 0px 15px !important;
+}
+.jx-rebuild-accordion.jx-rebuild-accordion-border .circle .jx-rebuild-accordion-icon::after {
+	border-right:none !important;
+	border-left: 1px solid #ddd !important;
+	margin-left: 10px !important;
+	margin-right:0px !important;
+}
+
+
+/* Button ================================================== */
+
+.jx-rebuild-xlarge-bt.jx-rebuild-button-icon-1 {
+	text-align: center;
+}
+
+.jx-rebuild-xlarge-bt.jx-rebuild-button-icon-1 i {
+	float:right;
+}
+
+.jx-rebuild-xlarge-bt.jx-rebuild-fullcurve.jx-rebuild-button-icon-1 i {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.jx-rebuild-large-bt.jx-rebuild-fullcurve.jx-rebuild-button-icon-1 i {
+    border-radius: 0px 30px 30px 0px;
+}
+
+.jx-rebuild-medium-bt.jx-rebuild-fullcurve.jx-rebuild-button-icon-1 i {
+    border-radius: 0px 25px 25px 0px;
+}
+
+.jx-rebuild-small-bt.jx-rebuild-fullcurve.jx-rebuild-button-icon-1 i {
+    border-radius: 0px 25px 25px 0px;
+}
+
+.jx-rebuild-xlarge-bt.jx-rebuild-mediumcurve.jx-rebuild-button-icon-1 i {
+    border-radius: 0px 12px 12px 0px;
+}
+
+.jx-rebuild-large-bt.jx-rebuild-mediumcurve.jx-rebuild-button-icon-1 i {
+    border-radius: 0px 12px 12px 0px;
+}
+
+.jx-rebuild-button-fx-5::before {
+    transform: translate3d(100%, 0, 0);
+	}
+	
+.jx-rebuild-button-fx-5 > span i {
+    margin-left: 15px;
+	margin-right:0px;
+}
+
+
+
+/* Button ================================================== */
+
+.jx-rebuild-small-point .jx-rebuild-image-position {
+    float: right;
+}
+
+.jx-rebuild-small-point .jx-rebuild-text-position {
+	margin-right: 110px;
+	margin-left: 0px;
+	text-align: right;
+}
+
+.jx-rebuild-big-iconed-button i {
+    margin-left: 10px;
+	margin-right:0px;
+}
+.jx-rebuild-big-iconed-button {
+    text-align: right;
+}
+.jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+    left: 5px;
+    right: auto;
+}
+.jx-rebuild-content-box .jx-rebuild-item i.file-icon {
+    margin-left: 10px;
+	margin-right:0px;
+}
+.jx-rebuild-content-box .jx-rebuild-item h5 {
+    padding: 0px 20px 0px 20px;
+}
+
+ul.default li::before {
+    margin-left: 10px;
+	margin-right:0px;
+    float: right;
+}
+
+
+.woocommerce-page.woocommerce ul.cart_list li img, .woocommerce-page.woocommerce ul.product_list_widget li img {
+    float: right;
+    margin-left: 0px;
+    margin-left: 16px;
+	margin-right:0px;
+}
+
+
+/* TAG ================================================== */
+
+.jx-rebuild-tagline-box-1 .container .columns {
+	float:right;
+}
+.jx-rebuild-tagline-box-3 .container .columns {
+	float:right;
+}
+.jx-rebuild-tagline-box-1 .tag_icon {
+    float: right;
+    margin-left: 19px;
+	margin-right:0px;
+}
+
+.jx-rebuild-tagline-box .box-content {
+    float: right;
+}
+.jx-rebuild-tagline-box .jx-rebuild-line-seperator {
+    border-left: 2px dotted #333;
+	border-right: none;
+    margin-right: -12px;
+	margin-left:0px;
+    float: right;
+}
+.jx-rebuild-tagline-box .jx-rebuild-newsletter-box {
+    float: right;
+}
+.jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"], .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+	margin-left: 15px;
+	margin-right: 0px;
+}
+.jx-rebuild-subscribeletter {
+     padding-right: 50px;
+	 padding-left:0px;
+}
+.jx-rebuild-tagline-box h3 {
+    direction: ltr;
+    text-align: right;
+}
+
+
+/* SKILLSBAR ================================================== */
+
+.jx-rebuild-skillsbar-2 .skillbar-title {
+    right: 0px !important;
+}
+
+.jx-rebuild-skillsbar-2 .percenttext {
+	float: left !important;
+	position: unset !important;
+}
+
+.jx-rebuild-skillsbar-3 .skillbar-title {
+    right: 0px !important;
+}
+
+.jx-rebuild-skillsbar-3 .percenttext {
+	float: left !important;
+	position: unset !important;
+}
+
+.jx-rebuild-skillsbar-6 .skillbar-title {
+    right: 0px !important;
+}
+
+.jx-rebuild-skillsbar-6 .percenttext {
+	float: left !important;
+	position: unset !important;
+}
+
+
+
+/* TEAMMEMBER ================================================== */
+
+
+.jx-rebuild-team-member-1 .content-position {
+    padding-right: 60px;
+	padding-left: 0px;
+}
+.jx-rebuild-team-member-4 .team-hover-icon {
+    padding-right: 30%;
+	padding-left:0px;
+}
+.jx-rebuild-team-member-6 .team-member-item .image img {
+    float: right;
+}
+.jx-rebuild-team-member-6 .team-member-item .image::before {
+    right: -7px;
+	left:0px;
+}
+.jx-rebuild-team-member-6 .team-member-item .image img {
+    margin-left: 15px;
+	margin-right:0px;
+}
+.jx-rebuild-team-member-6 .team-content-box {
+    padding-right: 130px;
+	padding-left:0px;
+}
+.jx-rebuild-team-member-6 .plus-hover .team-hover-icon::before {
+    right: 41px;
+	left:0px;
+}
+
+
+
+/* PROCESS ================================================== */
+
+.jx-rebuild-process .jx-rebuild-process-step {
+    float: right;
+    margin-left: 30px;
+	margin-right:0px;
+}
+
+.jx-rebuild-process .vertical-line {
+    right: 89px;
+	left:0px;
+}
+
+
+
+
+/* NOTIFICATION ================================================== */
+
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-info::before {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-warning::before {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-success::before {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-danger::before {
+    float: right;
+    margin-left: 10px;
+	margin-right:0px;
+}
+	
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-info {
+	padding: 15px 15px 15px 15px;
+}
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-danger {
+	padding: 15px 15px 15px 15px;
+}
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-success {
+	padding: 15px 15px 15px 15px;
+}
+
+.jx-rebuild-alert-notification .alert-with-icon.jx-rebuild-alert-warning {
+	padding: 15px 15px 15px 15px;
+}
+
+.jx-rebuild-alert-notification .jx-rebuild-close i {
+    float: left;
+}
+
+
+
+
+
+
+
+
+/* BLOG ================================================== */
+
+.jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-date {
+    margin-left: 20px;
+	margin-right: 0px;
+    float: right;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+    border-right: none;
+    padding-right: 0px;
+}
+.jx-rebuild-blog-tag i {
+    float: right;
+    margin-left: 10px;
+	margin-right: 0px;
+}
+.jx-rebuild-share-box-icon .share-title {
+    float: right;
+	padding: 10px 0px 0px 20px;
+}
+.jx-rebuild-share-box-icon .sharebox {
+	float: right;
+}
+.jx-rebuild-author-image {
+    float: right;
+    margin-left: 20px;
+	margin-right: 0px;
+}
+.jx-rebuild-related-blog {
+	float: right;
+}
+
+
+/* SIDEBAR ================================================== */
+
+#sidebar .jx-rebuild-widget-recent-post .image {
+    float: right;
+}
+#sidebar .jx-rebuild-widget-recent-post .post-content {
+    padding-right: 105px;
+	padding-left: 0px;
+}
+
+
+
+
+/* TABS ================================================== */
+
+
+.shortcode_tab_e ul.resp-tabs-list {
+	display: inline-flex;
+	text-align: right;
+}
+
+.fa-chevron-right:before {
+    content: "\f053";
+}
+.fa-chevron-left:before {
+    content: "\f054";
+}
+.jx-rebuild-topbar .jx-rebuild-right-topbar li .cart {
+    left: inherit;
+    right: -13px;
+}
+.jx-rebuild-price-5 .price {
+    font-size: 57px;
+    font-family: rebuild;
+}
+.jx-rebuild-price-5 .price span.top {
+    font-size: 25px;
+    position: relative;
+    top: -15px;
+}
+.jx-rebuild-price-1 .price {
+    font-size: 40px;
+}
+.jx-rebuild-servicelist-3:after {
+    height: 140%;
+}
+.jx-rebuild-flipbox-1 .jx-rebuild-flipbox-backitem .readmore a .plus-icon {
+    line-height: 52px;
+}
+.jx-rebuild-topbar .jx-rebuild-right-topbar li {
+    display: inline-block;
+    border-left: 1px solid #444444;
+    line-height: 40px;
+    float: right;
+}
+.jx-rebuild-topbar .jx-rebuild-right-topbar li:last-child {
+    border-right: none;
+}
+.jx-rebuild-breadcrumb a:after {
+    content: '\f104';
+}
+.jx-rebuild-breadcrumb a:after {
+    content: '\f104';
+    float: left;
+    margin-top: 9px;
+}
+.jx-rebuild-breadcrumb a {
+float:right;
+font-family:rebuild;
+}		
+.jx-rebuild-process-2 .jx-rebuild-process-title::after {
+    right: -9px;
+    left: initial;
+}
+.jx-rebuild-process-2 .jx-rebuild-process-title {
+    padding-left: 0;
+    padding-right: 25px;
+}
+.jx-rebuild-process-2 .jx-rebuild-process-description {
+    font-size: 14px;
+    padding: 10px 25px 40px 0px;
+    border-right: 3px solid #333;
+    border-left: none !important;
+    color: #333;
+}
+.jx-rebuild-process-2 li:last-child .jx-rebuild-process-description {
+    padding: 15px 25px 0px 0px;
+}
+.jx-rebuild-accordion-3 .circle .jx-rebuild-accordion-icon::after {
+    font-family: "fontawesome";
+    content: "\f104";
+}
+.fa-long-arrow-right:before {
+    content: "\f177";
+}
+.jx-rebuild-breadcrumb span.current {
+display: block;
+    font-family: rebuild;
+    font-size: 15px !important;
+}
+.jx-rebuild-breadcrumb .pre-breadcrumb a:after {
+    content: '\f104';
+    margin-top: 9px;
+}
+.jx-rebuild-sidebar-menu ul li.current_page_item a::after {
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #FFF;
+border-left:none;
+    border-left: none;
+    left: 13px;
+    right: initial;
+}
+.jx-rebuild-sidebar-menu ul li.current_page_item a::before {
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #FAB702;
+    border-top: 6px solid transparent;
+    left: 13px;
+border-left:none;
+    right: initial;
+}
+.jx-rebuild-interactive-map {
+    direction: ltr;
+}
+.jx-rebuild-section-title-4 .jx-rebuild-seperator-hr {
+    right: 0px;
+    margin-right: 0px;
+    margin-left: 40px;
+    left: 20px;
+}
+.jx-rebuild-section-title-4 .jx-rebuild-title {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.jx-rebuild-widget-request-quote .number
+{ 
+   color: #777;
+    font-size: 25px;
+}
+.jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+    float: right;
+}
+.jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+    float: right;
+}
+.jx-rebuild-big-iconed-button a {
+text-align:center;
+}
+.jx-rebuild-widget-request-quote.jx-rebuild-smaller .number {
+    font-size: 25px;
+    color: #9c9a9a;
+    line-height: 40px;
+    padding-bottom: 10px;
+}
+.jx-rebuild-v-timeline .date-position:after {
+    right: 100%;
+left:initial;
+    border-right-color: #eee;
+    border-left-color: transparent;
+    z-index: -1;
+}
+.jx-rebuild-v-timeline .date-position {
+    float: right;
+}
+.jx-rebuild-v-timeline .item-position {
+    margin-left: 0;
+    margin-right: 200px;
+}
+.jx-rebuild-partner-logo-list .logo-position {
+    float: right;
+    position: relative;
+    border: 1px solid rgb(238, 238, 238);
+    margin-right: 0;
+    margin-left: 20px;
+}
+.fa-angle-right:before {
+    content: "\f104";
+}
+.jx-rebuild-completed-prjcts-item:hover .jx-rebuild-completed-prjcts-info {
+    background: #333 !important;
+    cursor: pointer;
+}
+.wpcf7-form-control-wrap span span input {
+    margin: 10px;
+    width: 20px !important;
+}
+.sbHolder {
+    margin-right: 300px;
+    margin-left: 0;
+}
+.jx-rebuild-service-content label {
+    float: right;
+    margin-right: 55px;
+    margin-left: 0;
+}
+.sbSelector {
+    display: block;
+    height: 48px;
+    right: 5px;
+    left: initial;
+    text-align: right;
+}
+.sbToggle {
+    background: transparent url(images/select-icons2.png) no-repeat scroll 7px -116px;
+    left: 0px;
+    right: initial;
+}
+.sbToggle:hover {
+    background: url(images/select-icons2.png) 7px -167px no-repeat;
+}
+.sbOptions a {
+    text-align: right;
+}
+.wpcf7-form-control-wrap span span {
+    text-align: right;
+    direction: rtl;
+}
+.jx-rebuild-quote-box.contact-details {
+    direction: rtl;
+}
+.jx-rebuild-portfolio-columns .jx-rebuild-portfolio-plus-hover a {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+.jx-rebuild-portfolio-columns .jx-rebuild-portfolio-plus-hover i {
+    top: 20px !important;
+    right: 7px;
+    z-index: 1;
+    left: initial;
+}
+.portfolio-item:hover .jx-rebuild-portfolio-hoverlayer {
+    z-index: 0;
+}
+.minimal-light .esg-filterbutton, .minimal-light .esg-navigationbutton, .minimal-light .esg-sortbutton, .minimal-light .esg-cartbutton a {
+    margin-right: 0;
+    margin-left: 5px;
+}
+.jx-rebuild-portfolio-details-box li span {
+    margin-right: 5px;
+    margin-left: 0;
+}
+#sidebar .widget_search input.search-field {
+    margin-left: -1px;
+    margin-right: 0;
+    width: 203px;
+    float: right;
+    border-radius: 0;
+    height: 40px;
+}
+.jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta li {
+    margin-left: 15px;
+    margin-right: 0;
+    border-left: 1px solid;
+    border-right: none;
+    padding-left: 15px;
+    padding-right: 0;
+    margin-bottom: 0;
+}
+.jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta li:last-child {
+    border-left: none;
+}
+.jx-rebuild-blog-more a i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.eg-rebuild-style-1-element-0,.eg-rebuild-style-1-element-6 {
+text-align:right !important;
+direction:rtl;
+}
+.eg-rebuild-style-1-element-3,.eg-rebuild-style-1-element-2-a
+{float:right !important}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    float: right;
+    margin: 0 0 2.992em 2.9%;
+    padding: 0;
+    position: relative;
+    width: 22.05%;
+}
+.woocommerce.widget_price_filter .price_label {
+    font-size: 14px;
+    font-family: rebuild;
+}
+#sidebar .widget_product_search input.search-field {
+    margin-left: -1px;
+    margin-right: 0;
+    width: 203px;
+    float: right;
+}
+.woocommerce .woocommerce-ordering, .woocommerce .woocommerce-result-count {
+    margin: 0 0 1em;
+    display: none;
+}
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button {
+    float: left;
+}
+tr.cart_item:hover,.shop_table.cart tr {
+    background: #ffffff !important;
+}
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+    color: #fff;
+}
+.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
+    float: right;
+    width: 48%;
+}
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+    float: right;
+    width: 47%;
+    overflow: visible;
+}
+#add_payment_method #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
+text-align:right;
+}
+.woocommerce-cart.woocommerce-page table.cart td.actions .coupon .input-text {
+    float: right;
+    margin: 0px 0px 0px 4px;
+}
+.page-numbers li {float:right;}
+.fa-long-arrow-left:before {
+    content: "\f178";
+}
+.slicknav_btn {
+    left: 0px;
+    right: inherit;
+}
+.jx-rebuild-mainmenu li .menu-title {
+    margin-right: 7px;
+}

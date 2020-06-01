@@ -1,0 +1,4522 @@
+/*------------------------------------------------------------------
+Project:	Rebuild - Responsive 
+Version:	1.1
+Author:	Janxcode
+/*------------------------------------------------------------------
+/* Note: Design for a width 1024 Desktop
+================================================== */
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+    /*---------------------------------------------------------------
+		[1.0 Tagline Box ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-tagline-box h3 {
+        font-size: 35px !important;
+    }
+    .jx-rebuild-tagline-box h2 {
+        font-size: 24px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"] {
+        width: 240px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+        width: 240px !important;
+    }
+    .jx-rebuild-tagline-box-1 h3 {
+        font-size: 28px !important;
+    }
+    .jx-rebuild-tagline-box-1 h2 {
+        font-size: 34px !important;
+    }
+    .jx-rebuild-tagline-box-1 .button {
+        font-size: 14px !important;
+    }
+    /*----- Tagline Box 1 Style #1 -----*/
+    
+    .jx-rebuild-tagline-box-3 .button {
+        font-size: 14px !important;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h4 {
+        font-size: 24px !important;
+    }
+    .jx-rebuild-shape-right {
+        width: 510px !important;
+    }
+    .jx-rebuild-shape-left {
+        width: 480px !important;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h2 {
+        font-size: 20px !important;
+    }
+    /*----- Tagline Box 3 Style #3 -----*/
+    /*---------------------------------------------------------------
+		[2.0 COUNT UP ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-counter-up .count_number {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .jx-rebuild-counter-up .counter_text {
+        font-size: 20px;
+    }
+    .countup_hr {
+        width: 110px;
+    }
+    /* Style #2 */
+    
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span {
+        margin: 0px 5px;
+        padding: 0px 13px;
+        font-size: 60px;
+        line-height: 100px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span.comma {
+        bottom: -10px;
+    }
+    .jx-rebuild-counter-up-box span {
+        width: 60px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 70px;
+        margin-left: 10px;
+    }
+    .jx-rebuild-shape-left.jx-rebuild-shape-small {
+        width: 365px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 20px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 90px;
+        margin-left: 10px;
+    }
+    /*---------------------------------------------------------------
+			[3.0 SECTION TITLE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-section-title-1 .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-left-border {
+        margin-top: 4px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-right-border {
+        margin-top: 4px !important;
+    }
+    /*-------- Section Title Style 1 ---------*/
+    
+    .jx-rebuild-section-title-2 .jx-rebuild-title {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    /*-------- Section Title Style 2 ---------*/
+    
+    .jx-rebuild-section-title-3 .jx-rebuild-title {
+        font-size: 18px !important;
+        margin-bottom: 3px !important;
+        line-height: 20px !important;
+    }
+    /*-------- Section Title Style 3 ---------*/
+    
+    .jx-rebuild-section-title-5 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 5 ---------*/
+    
+    .jx-rebuild-section-title-6 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 6 ---------*/
+    
+    .jx-rebuild-section-title-7 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 7 ---------*/
+    /*---------------------------------------------------------------
+		[5.0  SEVICES LIST ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicelist-2 .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /*----------  Service list 2 ----------*/
+    /*---------------------------------------------------------------
+		[6.0 PRICE ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-price-1 .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .jx-rebuild-price-1 .price {
+        font-size: 60px;
+        line-height: 60px;
+        padding: 30px 0px 15px;
+    }
+    .jx-rebuild-price-1 .price span.top {
+        font-size: 30px;
+        top: -25px;
+    }
+    .jx-rebuild-price-1 .price span {
+        font-size: 30px;
+    }
+    .jx-rebuild-price-1 .jx-rebuild-button .price-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .jx-rebuild-price > li {
+        margin: 0px 22px 20px 0px;
+    }
+    /*---------------------------------------------------------------
+		[7.0 BLOG ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-blog-1 .date-position {
+        top: 87px;
+    }
+    .jx-rebuild-blog-1 .title {
+        font-size: 16px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title a {
+        font-size: 25px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta {
+        height: 55px;
+        line-height: 55px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        top: 88px !important;
+    }
+    .jx-rebuild-blog-2 .title {
+        font-size: 14px !important;
+        padding: 30px 20px 10px !important;
+    }
+    .jx-rebuild-blog-2 .hr-line {
+        border-right: 180px solid #000 !important;
+    }
+    /*---------------------------------------------------------------
+			[9.0 FOOTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-footer-2 .jx-rebuild-sub-footer {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li a {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li i {
+        padding-top: 10px !important;
+    }
+    /*--------- WEDGET REQUEST QUOTE-------------*/
+    
+    .jx-rebuild-widget-request-quote .number {
+        font-size: 30px !important;
+        line-height: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+        width: 85px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+        width: 85px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-quote-button a {
+        font-size: 18px !important;
+        padding: 12px 0px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-big-iconed-button {
+        width: 170px !important;
+    }
+    /*--------- WEDGET RECENT POST-------------*/
+    
+    .jx-rebuild-footer-recent-post ul li {
+        margin: 0px 0px 14px;
+    }
+    /*--------- WEDGET FLICKR-------------*/
+    
+    .jx-rebuild-footer-flickr ul li {
+        height: 65px;
+        width: 29.7%;
+    }
+    /*--------- WEDGET TAGS FOOTER-------------*/
+    
+    .jx-rebuild-tags-footer ul li {
+        padding: 9px 10px;
+    }
+    /*---------------------------------------------------------------
+			[10.0 TRSTIMONIALS ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 179px;
+    }
+    .jx-rebuild-tetimonials-column {
+        width: 47.8% !important;
+    }
+    /*---------------------------------------------------------------
+		[11.0 MEET OUR TEAM ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-team-member-1 .name {
+        font-size: 18px;
+    }
+    .jx-rebuild-team-member-1 .post {
+        font-size: 14px;
+    }
+    .jx-rebuild-team-member-1 .plus-icon {
+        font-size: 30px;
+        height: 40px;
+        width: 40px;
+        margin: 0px auto;
+        padding-top: 9px;
+    }
+    .jx-rebuild-team-member-1 .content-position {
+        padding-left: 50px;
+    }
+    .jx-rebuild-team-member-1 .team-social {
+        margin-left: 50px;
+    }
+    /*---------------------------------------------------------------
+			[15.0 HEADER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-topbar {
+        display: none;
+    }
+    .nav_container {
+        display: none;
+    }
+    .jx-rebuild-top-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .jx-rebuild-sticky.fixed {
+        display: none;
+    }
+    .jx-rebuild-menu-holder {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .jx-rebuild-header {
+        height: 100px;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 15px 0px 0px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-right {
+        right: -350px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-left {
+        left: -250px;
+    }
+    /*---------------------------------------------------------------
+			[18.0 CONTACT ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-contact-info .title {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .jx-rebuild-contact-info .item-position {
+        width: 250px;
+    }
+    .jx-rebuild-contact-info .line-icon {
+        font-size: 25px;
+    }
+    .jx-rebuild-contact-form .contact-full-name,
+    .jx-rebuild-contact-form .contact-email {
+        width: 49.3%;
+        float: left;
+        display: inline;
+    }
+    .jx-rebuild-contact-info .phone,
+    .jx-rebuild-contact-info .fax,
+    .jx-rebuild-contact-info .date-time,
+    .jx-rebuild-contact-info .address {
+        font-size: 12px !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*---------------------------------------------------------------
+			[20.0 HOME SLIDER ]
+		---------------------------------------------------------------*/
+    
+    .tp-simpleresponsive .caption,
+    .tp-simpleresponsive .tp-caption {
+        margin-left: 130px !important;
+    }
+    /*---------------------------------------------------------------
+			[21.0  SIDEBAR ]
+		---------------------------------------------------------------*/
+    
+    .container.with-sidebar .four.columns {
+        width: 280px;
+    }
+    /*---------------------------------------------------------------
+			[24.0 PROTFOLIO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li {
+        line-height: 40px;
+    }
+    .jx-rebuild-portfolio-grid {
+        height: auto;
+    }
+    .grid-item-width2 {
+        width: 50%;
+    }
+    .grid-item-width3 {
+        width: 50%;
+    }
+    .grid-item-width4 {
+        width: 50%;
+    }
+    .grid-item-height2 {
+        height: 334px;
+    }
+    .grid-item-height3 {
+        height: 334px;
+    }
+    .grid-item-height4 {
+        height: 334px;
+    }
+    .grid-item.gird-item-top {
+        top: auto;
+    }
+    /*---------------------------------------------------------------
+			[27.0 Content Box ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+        color: #CCC;
+        font-size: 40px;
+        position: absolute;
+        right: 5px;
+        bottom: 30px;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item h5 {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item a {
+        font-size: 16px;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item {
+        width: 100% !important;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 32.1% !important;
+    }
+    .jx-rebuild-service-footer-box .jx-rebuild-title {
+        font-size: 22px !important;
+    }
+    /*---------------------------------------------------------------
+			[28.0 404 Page ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-error-page .jx-rebuild-error-msg h1 {
+        font-size: 50px;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 280px;
+    }
+    /*---------------------------------------------------------------
+			[29.0 Process ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-process li {
+        margin-bottom: 65px;
+    }
+    /*---------------------------------------------------------------
+		[30.0 Project in Progress ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-progress .jx-rebuild-project-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image img {
+        width: 100%;
+        height: 194px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+        width: 170px;
+        left: -60px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image {
+        height: 296px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-bg-alternate li {
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage {
+        bottom: 20px;
+        left: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        margin-left: 0px;
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[1.0 Grid Counter ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-grid-counter .count {
+        text-align: center !important;
+    }
+    .jx-grid-count .title {
+        float: none;
+        text-align: center
+    }
+    .jx-grid-count .count {
+        float: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+}
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    /*---------------------------------------------------------------
+		[1.0 Tagline Box ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-tagline-box h3 {
+        font-size: 30px !important;
+    }
+    .jx-rebuild-tagline-box h2 {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"] {
+        width: 180px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+        width: 180px !important;
+    }
+    .jx-rebuild-tagline-box-1 h3 {
+        font-size: 23px !important;
+        line-height: 25px !important;
+    }
+    .jx-rebuild-tagline-box-1 h2 {
+        font-size: 29px !important;
+        line-height: 32px !important;
+        padding-top: 5px !important;
+    }
+    .jx-rebuild-tagline-box-1 .button {
+        font-size: 14px !important;
+        padding: 15px 15px !important;
+    }
+    .jx-rebuild-tagline-box-1 {
+        padding: 50px 0px 25px !important;
+    }
+    /*----- Tagline Box 1 Style #1 -----*/
+    
+    .jx-rebuild-tagline-box-2 h2 {
+        font-size: 25px;
+    }
+    .jx-rebuild-tagline-box-2 .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    /*----- Tagline Box 1 Style #2 -----*/
+    
+    .jx-rebuild-tagline-box-3 .button {
+        font-size: 13px;
+        padding: 10px 15px;
+        margin-top: 30px;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h4 {
+        font-size: 20px;
+    }
+    .jx-rebuild-shape-right {
+        width: 370px;
+    }
+    .jx-rebuild-shape-left {
+        width: 420px;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h2 {
+        font-size: 20px !important;
+    }
+    /*----- Tagline Box 3 Style #3 -----*/
+    /*---------------------------------------------------------------
+		[2.0 COUNT UP ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-counter-up .count_number {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .jx-rebuild-counter-up .counter_text {
+        font-size: 20px;
+    }
+    .countup_hr {
+        width: 110px;
+    }
+    /* Style #2 */
+    
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span {
+        margin: 0px 3px;
+        padding: 0px 10px;
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span.comma {
+        bottom: -10px;
+    }
+    .jx-rebuild-counter-up-box span {
+        width: 60px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 70px;
+        margin-left: 10px;
+    }
+    .jx-rebuild-shape-left.jx-rebuild-shape-small {
+        width: 238px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 20px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 20px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 90px;
+        margin-left: 10px;
+    }
+    /*---------------------------------------------------------------
+			[3.0 SECTION TITLE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-section-title-1 .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-left-border {
+        margin-top: 4px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-right-border {
+        margin-top: 4px !important;
+    }
+    /*-------- Section Title Style 1 ---------*/
+    
+    .jx-rebuild-section-title-2 .jx-rebuild-title {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    /*-------- Section Title Style 2 ---------*/
+    
+    .jx-rebuild-section-title-3 .jx-rebuild-title {
+        font-size: 18px !important;
+        margin-bottom: 3px !important;
+        line-height: 20px !important;
+    }
+    /*-------- Section Title Style 3 ---------*/
+    
+    .jx-rebuild-section-title-5 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 5 ---------*/
+    
+    .jx-rebuild-section-title-6 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 6 ---------*/
+    
+    .jx-rebuild-section-title-7 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 7 ---------*/
+    /*---------------------------------------------------------------
+			[4.0  SEVICES BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item .jx-rebuild-image-wrapper .jx-rebuild-image-title-over a {
+        font-size: 14px !important;
+    }
+    /*---------------------------------------------------------------
+			[5.0  SEVICES LIST ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicelist-1 .category {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /*----------  Service list 2 ----------*/
+    /*---------------------------------------------------------------
+		[6.0 PRICE ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-price > li {
+        margin: 0px 22px 20px 0px;
+        width: 360px;
+    }
+    /*---------------------------------------------------------------
+		[7.0 BLOG ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-blog-1 .date-position {
+        top: 128px !important;
+    }
+    .jx-rebuild-blog-1 .title {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-blog-1 .one-third.columns {
+        width: 360px !important;
+    }
+    .jx-rebuild-blog-1 .blog-item {
+        margin-bottom: 20px !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title a {
+        font-size: 25px !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        top: 44px !important;
+    }
+    .jx-rebuild-blog-2 .blog-item {
+        margin-bottom: 12px !important;
+    }
+    .jx-rebuild-blog-2 .hr-line {
+        border-right: 150px solid #000 !important;
+    }
+    .jx-rebuild-blog-2 .title {
+        font-size: 12px !important;
+        padding: 35px 20px 10px !important;
+    }
+    /*---------------------------------------------------------------
+			[8.0 NEWSLETTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-newsletter .white-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .darkgrey-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .content-box {
+        padding: 50px 40px 0px;
+        height: 340px;
+    }
+    /*---------------------------------------------------------------
+			[9.0 FOOTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-footer-1 .jx-rebuild-footer-logo {
+        width: 140px;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-footer-logo {
+        width: 140px !important;
+        margin-bottom: 10px !important;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-sub-footer {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li a {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li i {
+        padding-top: 8px !important;
+        font-size: 18px !important;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-copy-right {
+        padding-top: 24px !important;
+    }
+    /*--------- WEDGET REQUEST QUOTE-------------*/
+    
+    .jx-rebuild-widget-request-quote .number {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+        width: 60px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+        width: 60px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-quote-button a {
+        font-size: 14px !important;
+        padding: 7px 0px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-big-iconed-button {
+        width: 120px !important;
+    }
+    /*--------- WEDGET RECENT POST-------------*/
+    
+    .jx-rebuild-widget-recent-post .image {
+        background: #999 none repeat scroll 0% 0%;
+        width: 66px;
+    }
+    .jx-rebuild-widget-recent-post .post-content {
+        padding-left: 80px;
+    }
+    .jx-rebuild-widget-recent-post ul li {
+        margin: 0px 0px 0px;
+        padding: 0px 0px 14px;
+    }
+    /*--------- WEDGET FLICKR-------------*/
+    
+    .jx-rebuild-footer-flickr ul li {
+        height: 49px;
+        width: 28.5%;
+    }
+    /*--------- WEDGET RECENT POST-------------*/
+    
+    .jx-rebuild-footer-recent-post .image {
+        width: 70px;
+        height: 51px;
+    }
+    .jx-rebuild-footer-recent-post .post-content {
+        padding-left: 80px;
+    }
+    /*---------------------------------------------------------------
+			[10.0 TRSTIMONIALS ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 177px;
+        margin: 0px;
+    }
+    .jx-rebuild-tetimonials-column {
+        width: 47.2% !important;
+    }
+    /*---------------------------------------------------------------
+			[11.0 MEET OUR TEAM ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-team-member-1 .four.columns {
+        width: 360px !important;
+        margin-bottom: 20px !important;
+    }
+    .jx-rebuild-team-member-4 .team-content-box .name {
+        font-size: 16px !important;
+    }
+    .jx-rebuild-team-member-4 .team-content-box .post {
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+    }
+    .jx-rebuild-team-member-4 .team-hover-icon {
+        padding-left: 22% !important;
+    }
+    /*---------------------------------------------------------------
+			[12.0 TABS ]
+		---------------------------------------------------------------*/
+    
+    .shortcode_tab_e.jx-rebuild-white-tab li {
+        padding: 12px 17px 15px;
+    }
+    /*---------------------------------------------------------------
+			[11.0 ACCORDING ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-accordion-3 .eight.columns {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[15.0 HEADER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-topbar {
+        display: none;
+    }
+    .nav_container {
+        display: none;
+    }
+    .jx-rebuild-top-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    .jx-rebuild-sticky.fixed {
+        display: none;
+    }
+    .jx-rebuild-menu-holder {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .jx-rebuild-header {
+        height: 100px;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 25px 0px 0px;
+    }
+    /*------------ Breducrumb -----------*/
+    
+    .jx-rebuild-titlebar {
+        height: 150px;
+        padding-top: 0px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb {
+        font-size: 20px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb span {
+        font-size: 20px;
+        padding: 14px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-right {
+        right: -350px;
+        height: 150px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-left {
+        left: -250px;
+        height: 150px;
+    }
+    /*---------------------------------------------------------------
+		[18.0 CONTACT ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-contact-info .title {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+    .jx-rebuild-contact-info .item-position {
+        width: 170px !important;
+    }
+    .jx-rebuild-contact-info .line-icon {
+        font-size: 25px !important;
+    }
+    .jx-rebuild-contact-info .phone,
+    .jx-rebuild-contact-info .fax,
+    .jx-rebuild-contact-info .date-time,
+    .jx-rebuild-contact-info .address {
+        font-size: 12px !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .jx-rebuild-contact-form .contact-full-name,
+    .jx-rebuild-contact-form .contact-email {
+        width: 49.3% !important;
+        float: left !important;
+        display: inline !important;
+    }
+    /*---------------------------------------------------------------
+			[19.0 PATNER LOGO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-partner-logo ul li {
+        width: 180px;
+    }
+    /*---------------------------------------------------------------
+			[20.0 HOME SLIDER ]
+		---------------------------------------------------------------*/
+    
+    .tp-simpleresponsive .caption,
+    .tp-simpleresponsive .tp-caption {
+        margin-left: 120px !important;
+    }
+    /*---------------------------------------------------------------
+			[21.0 SIDEBAR ]
+		---------------------------------------------------------------*/
+    
+    .container.with-sidebar .sixteen.columns {
+        width: 750px;
+    }
+    #sidebar {
+        padding-top: 50px;
+    }
+    /*---------------------------------------------------------------
+			[22.0 CONTENT BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[23.0 PROJECT VIEW ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-nav .jx-rebuild-project-title {
+        font-size: 18px;
+    }
+    /*---------------------------------------------------------------
+			[24.0 PROTFOLIO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li {
+        line-height: 40px;
+    }
+    .jx-rebuild-portfolio-grid {
+        height: auto;
+    }
+    .grid-item-width2 {
+        width: 50%;
+    }
+    .grid-item-width3 {
+        width: 50%;
+    }
+    .grid-item-width4 {
+        width: 50%;
+    }
+    .grid-item-height2 {
+        height: 334px;
+    }
+    .grid-item-height3 {
+        height: 334px;
+    }
+    .grid-item-height4 {
+        height: 334px;
+    }
+    .grid-item.gird-item-top {
+        top: auto;
+    }
+    /*---------------------------------------------------------------
+		[25.0 SLIDER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-caption-big-1 {
+        height: 50px;
+        font-family: oswald;
+        color: #fff;
+        line-height: 50px !important;
+        font-size: 30px !important;
+        top: 212px !important;
+    }
+    .jx-rebuild-caption-big-icon {
+        left: 220px !important;
+        top: 212px !important;
+    }
+    .tp-caption {
+        white-space: normal;
+    }
+    .jx-rebuild-caption-big-icon i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px !important;
+        font-size: 20px !important;
+    }
+    .jx-rebuild-caption-big-2 {
+        width: 353px;
+        padding: 20px !important;
+        line-height: 1.2 !important;
+        font-size: 15px !important;
+        font-family: raleway;
+    }
+    /*---------------------------------------------------------------
+			[27.0 Content Box ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+        color: #CCC;
+        font-size: 60px !important;
+        position: absolute !important;
+        right: 20px !important;
+        bottom: 20px !important;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 32.1% !important;
+    }
+    .jx-rebuild-service-footer-box .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item h5 {
+        padding: 0px 20px 0px !important;
+    }
+    /*---------------------------------------------------------------
+			[28.0 404 Page ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-error-page .jx-rebuild-error-msg h1 {
+        font-size: 50px;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 280px;
+    }
+    /*---------------------------------------------------------------
+			[29.0 Process ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-process li {
+        margin-bottom: 46px;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step {
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        margin-top: -10px;
+        width: 50px;
+    }
+    .jx-rebuild-process-content {
+        padding-left: 80px !important;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step div::after {
+        top: 0px;
+        left: 0px;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+    .jx-rebuild-process .vertical-line {
+        height: 410px;
+        background: #333 none repeat scroll 0% 0%;
+        width: 2px;
+        position: absolute;
+        top: 148px;
+        left: 75px;
+        z-index: 0;
+    }
+    /*---------------------------------------------------------------
+		[30.0 Project in Progress ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-progress .jx-rebuild-project-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image img {
+        width: 100%;
+        height: auto;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+        width: 170px;
+        left: -60px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .eight.columns {
+        width: 580px;
+        margin: 0px 10%;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image {
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        margin-left: 0px;
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[1.0 Grid Counter ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-grid-counter .count {
+        text-align: center !important;
+    }
+    .jx-grid-count .title {
+        float: none;
+        text-align: center
+    }
+    .jx-grid-count .count {
+        float: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+}
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*---------------------------------------------------------------
+			[1.0 Tagline Box ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-tagline-box {
+        text-align: center;
+    }
+    .jx-rebuild-tagline-box .box-content {
+        padding: 35px 0px;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-line-seperator {
+        height: 170px;
+        border-bottom: 2px dotted #333333;
+        border-right: 0px;
+        margin-top: 30px;
+        margin-left: 0px;
+        float: none;
+    }
+    .jx-rebuild-subscribeletter {
+        padding: 35px 0px 25px 0px;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"] {
+        height: 50px;
+        padding: 10px;
+        font-size: 19px;
+        width: 415px !important;
+        margin-right: 15px;
+    }
+    .jx-rebuild-tagline-box-1 {
+        text-align: center;
+    }
+    .jx-rebuild-tagline-box-1 h2 {
+        font-size: 30px;
+    }
+    .jx-rebuild-tagline-box-1 .button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .jx-rebuild-tagline-box-1 h3 {
+        font-size: 25px;
+    }
+    /*----- Tagline Box 1 Style #1 -----*/
+    
+    .jx-rebuild-tagline-box-2 h2 {
+        font-size: 20px;
+    }
+    .jx-rebuild-tagline-box-2 .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    /*----- Tagline Box 1 Style #2 -----*/
+    
+    .jx-rebuild-tagline-box-3 {
+        text-align: center;
+    }
+    .jx-rebuild-tagline-box-3 .button {
+        margin-top: 0px;
+        margin-bottom: 25px
+    }
+    .jx-rebuild-shape-right {
+        height: 215px;
+        width: 600px;
+    }
+    .jx-rebuild-shape-left {
+        width: 320px;
+        height: 215px;
+    }
+    /*----- Tagline Box 3 Style #3 -----*/
+    /*---------------------------------------------------------------
+			[2.0 COUNT UP ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-countup {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    /* Style #2 */
+    
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span {
+        margin: 0px 3px;
+        padding: 0px 6px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span.comma {
+        bottom: -8px;
+    }
+    .jx-rebuild-counter-up-box {
+        margin-top: 20px;
+    }
+    .jx-rebuild-counter-up-2 .title {
+        font-size: 22px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-title i {
+        font-size: 40px;
+        margin-right: 15px;
+        margin-top: -8px;
+    }
+    .jx-rebuild-counter-up-box span {
+        width: 40px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 40px;
+        margin-left: 6px;
+    }
+    .jx-rebuild-shape-left.jx-rebuild-shape-small {
+        width: 286px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 15px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 60px;
+        margin-left: 7px;
+    }
+    /*---------------------------------------------------------------
+			[3.0 SECTION TITLE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-section-title-1 .jx-rebuild-title {
+        font-size: 20px !important;
+        padding: 0px 20px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-left-border {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+        margin-bottom: 13px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-right-border {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+        height: 10px !important;
+        display: inline-block !important;
+    }
+    /*-------- Section Title Style 1 ---------*/
+    
+    .jx-rebuild-section-title-2 .jx-rebuild-title {
+        font-size: 20px !important;
+        line-height: 30px !important;
+    }
+    /*-------- Section Title Style 2 ---------*/
+    
+    .jx-rebuild-section-title-3 .jx-rebuild-title {
+        font-size: 18px !important;
+        margin-bottom: 3px !important;
+        line-height: 20px !important;
+    }
+    /*-------- Section Title Style 3 ---------*/
+    
+    .jx-rebuild-section-title-5 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 5 ---------*/
+    
+    .jx-rebuild-section-title-6 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 6 ---------*/
+    
+    .jx-rebuild-section-title-7 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 7 ---------*/
+    /*---------------------------------------------------------------
+			[4.0  SEVICES BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicebox-1 .jx-rebuild-servicebox-item {
+        padding-bottom: 20px;
+    }
+    .jx-rebuild-servicebox-1 {
+        margin-bottom: 40px;
+    }
+    /*----------  Servicebox 1 ----------*/
+    
+    .jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item {
+        margin-bottom: 60px;
+    }
+    .jx-rebuild-servicebox-2 .jx-rebuild-image-wrapper .jx-rebuild-image-title-over a {
+        font-size: 16px;
+    }
+    .jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item img {
+        max-width: 100%;
+        width: 100%;
+    }
+    /*----------  Servicebox 2 ----------*/
+    /*---------------------------------------------------------------
+			[5.0  SEVICES LIST ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicelist-1 .servicelist-head {
+        margin: 0px 0px 0px 0px;
+    }
+    /*---------------------------------------------------------------
+			[6.0 PRICE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-price-1 {
+        margin-bottom: 40px;
+    }
+    .jx-rebuild-price > li {
+        margin: 0px 0px 40px 0px;
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[7.0 BLOG ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-blog-1 .date-position {
+        top: 168px;
+    }
+    .jx-rebuild-blog-1 .title {
+        font-size: 18px;
+    }
+    .jx-rebuild-blog-1 .blog-item {
+        margin-bottom: 40px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title a {
+        font-size: 20px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta {
+        height: auto;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta {
+        height: auto !important;
+    }
+    .jx-rebuild-author-box {
+        height: 300px !important;
+        padding: 20px !important;
+    }
+    /*----------- Blog Style #  1------------*/
+    
+    .jx-rebuild-blog-2 .blog-item {
+        margin-bottom: 50px !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        top: 168px !important;
+    }
+    /*----------- Blog Style #  2------------*/
+    
+    ul.comments li {
+        padding: 10px 0px 0px 80px;
+    }
+    ul.comments li .img-thumbnail {
+        margin-left: -80px;
+    }
+    ul.comments li ul li {
+        padding-left: 0px;
+    }
+    ul.comments li .img-thumbnail {
+        margin-left: -80px;
+    }
+    ul.comments li img.avatar {
+        height: 50px;
+        width: 50px;
+    }
+    ul.comments .comment-block .date {
+        font-size: 12px;
+    }
+    /*----------- Blog Coments #  1------------*/
+    /*---------------------------------------------------------------
+		[8.0 NEWSLETTER ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-newsletter .white-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .darkgrey-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .content-box {
+        padding: 40px 30px 30px 30px;
+        height: auto;
+    }
+    .jx-rebuild-newsletter .white-column .title {
+        font-size: 27px;
+    }
+    .jx-rebuild-newsletter .white-column .sub-title {
+        font-size: 27px;
+    }
+    /*---------------------------------------------------------------
+			[9.0 FOOTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-footer-2 .jx-rebuild-copy-right {
+        text-align: center !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-footer-2 .widget {
+        border-right: none !important;
+    }
+    .jx-rebuild-footer-1 .jx-rebuild-sub-footer {
+        height: auto;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-sub-footer {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-footer-social-icon ul {
+        padding: 43px 100px 40px 0px;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li a {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li i {
+        padding-top: 10px !important;
+        font-size: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-footer-2 .widget {
+        padding: 35px 0px 0px !important;
+    }
+    /*--------- WEDGET REQUEST QUOTE-------------*/
+    
+    .jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+        width: 180px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+        width: 180px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-quote-button {
+        left: 0px !important;
+    }
+    /*--------- WEDGET FLICKR-------------*/
+    
+    .jx-rebuild-footer-flickr ul li {
+        width: auto;
+    }
+    /*---------------------------------------------------------------
+			[10.0 TRSTIMONIALS ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-testimonials-2 .image {
+        float: none;
+        display: inherit;
+        margin: 0px auto;
+    }
+    .jx-rebuild-testimonials-2 .name::before {
+        padding-top: 20px;
+    }
+    
+.jx-rebuild-tetimonials-2.jx-rebuild-x2 .description {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.jx-rebuild-tetimonials-2.jx-rebuild-x2 .name {
+    font-size: 24px;
+}
+
+.jx-rebuild-tetimonials-3-column {
+    width: 100%;
+}
+
+.jx-rebuild-tetimonials-4 {
+    margin-bottom: 50px;
+}
+
+.jx-rebuild-tetimonials-5 {
+    margin-bottom: 40px;
+}
+
+.jx-rebuild-tetimonials-6 {
+    margin-bottom: 50px;
+}
+    
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 185px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    .jx-rebuild-testimonial-slider .flex-direction-nav .flex-prev {
+        right: 50px;
+    }
+    .jx-rebuild-tetimonials-1 .jx-rebuild-testimonial-details .name {
+        font-size: 18px;
+    }
+    .jx-rebuild-tetimonials-1 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+        margin-right: 10px;
+    }
+    .jx-rebuild-tetimonials-column {
+        width: 100% !important;
+    }
+    .jx-rebuild-tetimonials-2 i {
+        font-size: 35px;
+    }
+    .jx-rebuild-tetimonials-2 {
+        padding: 30px 0px 30px 0px;
+    }
+    .jx-rebuild-tetimonials-2 .description {
+        font-size: 16px;
+    }
+    /*---------------------------------------------------------------
+			[11.0 MEET OUR TEAM ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-team-member-1 .four.columns {
+        margin-bottom: 40px;
+    }
+    .jx-rebuild-team-member-4 {
+        padding-bottom: 40px !important;
+        display: inline-block !important;
+    }
+    /*---------------------------------------------------------------
+			[12.0 TABS ]
+		---------------------------------------------------------------*/
+    
+    .shortcode_tab_e.jx-rebuild-white-tab.jx-rebuild-arrow-tab li.resp-tab-active {
+        padding: 12px;
+    }
+    .shortcode_tab_e ul.resp-tabs-list {
+        padding-top: 50px;
+    }
+    .shortcode_tab_e.jx-rebuild-white-tab li {
+        padding: 12px 17px 15px;
+    }
+    /*---------------------------------------------------------------
+			[14.0 BREADCRUMB ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-page-subhead .breadcrumb-right {
+        padding: 3px 0px 3px 20px;
+        margin-top: 20px;
+    }
+    /*---------------------------------------------------------------
+			[15.0 HEADER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-topbar {
+        display: none;
+    }
+    .nav_container {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block !important;
+    }
+    .jx-rebuild-sticky.fixed {
+        display: none;
+    }
+    .jx-rebuild-top-menu {
+        display: none;
+    }
+    .jx-rebuild-menu-holder {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .jx-rebuild-header {
+        height: 100px !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 15px 0px 0px !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo img {
+        width: 230px !important;
+    }
+    /*------------ Breducrumb -----------*/
+    
+    .jx-rebuild-titlebar {
+        height: 150px;
+        padding-top: 0px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb {
+        font-size: 13px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb span {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb a {
+        padding: 10px 10px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-right {
+        right: -450px;
+        height: 150px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-left {
+        left: -300px;
+        height: 150px;
+    }
+    /*---------------------------------------------------------------
+			[16.0 PROCESS ]
+		---------------------------------------------------------------*/
+    
+    .container.container-margin .four.columns {
+        width: 100% !important;
+    }
+    /*---------------------------------------------------------------
+			[17.0 COLUMNS ]
+		---------------------------------------------------------------*/
+    
+    .twelve.columns {
+        width: 100% !important;
+    }
+    /*---------------------------------------------------------------
+			[19.0 PATNER LOGO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-partner-logo {
+        padding-bottom: 50px;
+        display: inline-block;
+    }
+    .jx-rebuild-partner-logo ul li {
+        width: 209px;
+    }
+    .jx-rebuild-partner-logo li:nth-last-child(1n) {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .sixteen.columns .jx-rebuild-partner-logo li {
+        width: 49.8%;
+    }
+    /*---------------------------------------------------------------
+		[18.0 CONTACT ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-contact-info .line-icon {
+        font-size: 25px;
+    }
+    .jx-rebuild-contact-info .title {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 3px;
+    }
+    .jx-rebuild-contact-info .item-position {
+        padding-bottom: 40px;
+    }
+    .jx-rebuild-contact-form .contact-full-name,
+    .jx-rebuild-contact-form .contact-email {
+        width: 100%;
+    }
+    .jx-rebuild-contact-form .contact-full-name {
+        float: none;
+        margin-right: 0px;
+    }
+    /*---------------------------------------------------------------
+			[21.0  SIDEBAR ]
+		---------------------------------------------------------------*/
+    
+    #sidebar {
+        margin-top: 50px;
+    }
+    /*---------------------------------------------------------------
+			[22.0 CONTENT BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[23.0 PROJECT VIEW ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-nav .jx-rebuild-project-title {
+        font-size: 16px;
+    }
+    /*---------------------------------------------------------------
+			[24.0 PROTFOLIO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li {
+        line-height: 30px;
+    }
+    .jx-rebuild-portfolio-grid {
+        height: auto;
+    }
+    .grid-item-width2 {
+        width: 50%;
+    }
+    .grid-item-width3 {
+        width: 50%;
+    }
+    .grid-item-width4 {
+        width: 50%;
+    }
+    .grid-item-height2 {
+        height: 334px;
+    }
+    .grid-item-height3 {
+        height: 334px;
+    }
+    .grid-item-height4 {
+        height: 334px;
+    }
+    .grid-item.gird-item-top {
+        top: auto;
+    }
+    /*---------------------------------------------------------------
+		[25.0 SLIDER ]
+		---------------------------------------------------------------*/
+    /* Revolution Slider */
+    
+    .jx-rebuild-caption-big-1 {
+        height: 50px;
+        font-family: oswald;
+        color: #fff;
+        line-height: 50px !important;
+        font-size: 30px !important;
+        top: 180px !important;
+    }
+    .jx-rebuild-caption-big-icon {
+        left: 230px !important;
+        top: 180px !important;
+    }
+    .tp-caption {
+        white-space: normal;
+        margin-left: 220px !important;
+    }
+    .jx-rebuild-caption-big-icon i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px !important;
+        font-size: 20px !important;
+    }
+    .jx-rebuild-caption-big-2 {
+        width: 353px;
+        padding: 20px !important;
+        line-height: 1.2 !important;
+        font-size: 15px !important;
+        font-family: raleway;
+    }
+    /*---------------------------------------------------------------
+		[26.0 Image Placholder ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-image-placholder.jx-rebuild-image-wrapper {
+        margin-bottom: 20px;
+    }
+    /*---------------------------------------------------------------
+		[27.0 Content Box ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+        color: #CCC;
+        font-size: 60px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 100%;
+    }
+    .jx-rebuild-service-completed-prjcts .jx-rebuild-completed-prjcts-item {
+        margin-bottom: 30px;
+    }
+    /*---------------------------------------------------------------
+			[28.0 404 Page ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-error-page .jx-rebuild-error-msg h1 {
+        font-size: 30px;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 160px;
+    }
+    .jx-rebuild-error-page {
+        min-height: 320px;
+    }
+    /*---------------------------------------------------------------
+			[29.0 Process ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-process li {
+        margin-bottom: 46px;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step {
+        height: 70px;
+        line-height: 70px;
+        font-size: 35px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        margin-top: -10px;
+        width: 70px;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step div::after {
+        top: 3px;
+        left: 3px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+    .jx-rebuild-process .vertical-line {
+        left: 84px;
+    }
+    /*---------------------------------------------------------------
+		[30.0 Project in Progress ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        width: 229px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .jx-rebuild-project-view-image .progress {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage {
+        bottom: 25px;
+        left: 25px;
+    }
+    /*---------------------------------------------------------------
+		[1.0 PARTNER LOGO LIST ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-partner-logo-list .logo-position {
+        min-width: 100%;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    /*---------------------------------------------------------------
+		[1.0 V TIME LINE ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-v-timeline .date-position {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-v-timeline .item-position {
+        margin-left: 0px;
+    }
+    /*---------------------------------------------------------------
+		[1.0 Grid Counter ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-grid-counter .count {
+        text-align: center !important;
+    }
+    .jx-grid-count .title {
+        float: none;
+        text-align: center
+    }
+    .jx-grid-count .count {
+        float: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+}
+/* MOBILE PORTRAIT SIZE TO MOBILE LANDSCAPE SIZE (DEVICES AND BROWSERS)-------------- */
+
+@media only screen and (max-width: 479px) {
+    /*---------------------------------------------------------------
+			[1.0 Tagline Box ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-tagline-box {
+        text-align: center;
+    }
+    .jx-rebuild-tagline-box h2 {
+        font-size: 25px !important;
+    }
+    .jx-rebuild-tagline-box h3 {
+        font-size: 40px !important;
+    }
+    .jx-rebuild-tagline-box .box-content {
+        padding: 35px 0px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-line-seperator {
+        height: 150px !important;
+        border-bottom: 2px dotted #333333 !important;
+        border-right: 0px !important;
+        margin-top: 30px !important;
+        margin-left: 0px !important;
+        float: none !important;
+    }
+    .jx-rebuild-subscribeletter {
+        padding: 35px 0px 25px 0px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"] {
+        width: 300px !important;
+    }
+    .jx-rebuild-tagline-box-1 {
+        text-align: center !important;
+    }
+    .jx-rebuild-tagline-box-1 h2 {
+        font-size: 30px !important;
+    }
+    .jx-rebuild-tagline-box-1 .button {
+        font-size: 12px !important;
+        padding: 10px 15px !important;
+    }
+    .jx-rebuild-tagline-box-1 h3 {
+        font-size: 25px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+        width: 220px !important;
+    }
+    /*----- Tagline Box 1 Style #1 -----*/
+    
+    .jx-rebuild-tagline-box-2 h2 {
+        font-size: 20px;
+    }
+    .jx-rebuild-tagline-box-2 .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    /*----- Tagline Box 1 Style #2 -----*/
+    
+    .jx-rebuild-tagline-box-3 {
+        text-align: center;
+    }
+    .jx-rebuild-tagline-box-3 .button {
+        margin-top: 0px;
+        margin-bottom: 25px
+    }
+    .jx-rebuild-shape-right {
+        height: 245px;
+    }
+    /*----- Tagline Box 3 Style #3 -----*/
+    /*---------------------------------------------------------------
+			[2.0 COUNT UP ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-counter-up .count_number {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .jx-rebuild-counter-up .counter_text {
+        font-size: 20px;
+    }
+    .countup_hr {
+        width: 110px;
+    }
+    .jx-rebuild-countup {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    /* Style #2 */
+    
+    .jx-rebuild-counter-up-2 .title {
+        font-size: 18px;
+    }
+    .jx-rebuild-counter-up-2 .icon {
+        font-size: 18px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count {
+        padding: 30px 0px 0px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span {
+        margin: 0px 1px;
+        padding: 0px 8px;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span.comma {
+        bottom: -8px;
+    }
+    .jx-rebuild-counter-up-box {
+        margin-top: 20px;
+    }
+    .jx-rebuild-counter-up-2 .title {
+        font-size: 18px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-title i {
+        font-size: 30px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+    .jx-rebuild-counter-up-box span {
+        width: 25px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 25px;
+        margin-left: 6px;
+    }
+    .jx-rebuild-shape-left.jx-rebuild-shape-small {
+        width: 203px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 10px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    /*---------------------------------------------------------------
+			[3.0 SECTION TITLE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-section-title-1 .jx-rebuild-title {
+        font-size: 18px !important;
+        padding: 0px 15px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-left-border {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+        margin-bottom: 13px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-right-border {
+        float: none !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+        height: 10px !important;
+        display: inline-block !important;
+    }
+    /*-------- Section Title Style 1 ---------*/
+    
+    .jx-rebuild-section-title-2 .jx-rebuild-title {
+        font-size: 18px !important;
+        line-height: 30px !important;
+    }
+    /*-------- Section Title Style 2 ---------*/
+    
+    .jx-rebuild-section-title-3 .jx-rebuild-title {
+        font-size: 18px !important;
+        margin-bottom: 3px !important;
+        line-height: 20px !important;
+    }
+    /*-------- Section Title Style 3 ---------*/
+    
+    .jx-rebuild-section-title-5 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 5 ---------*/
+    
+    .jx-rebuild-section-title-6 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 6 ---------*/
+    
+    .jx-rebuild-section-title-7 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 7 ---------*/
+    /*---------------------------------------------------------------
+			[4.0  SEVICES BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicebox-1 .jx-rebuild-servicebox-item {
+        padding-bottom: 20px;
+    }
+    .jx-rebuild-servicebox-1 {
+        margin-bottom: 40px;
+    }
+    /*----------  Servicebox 1 ----------*/
+    
+    .jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item {
+        margin-bottom: 60px;
+    }
+    .jx-rebuild-servicebox-2 .jx-rebuild-image-wrapper .jx-rebuild-image-title-over a {
+        font-size: 16px;
+    }
+    .jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item img {
+        max-width: 100%;
+        width: 100%;
+    }
+    /*----------  Servicebox 2 ----------*/
+    /*---------------------------------------------------------------
+			[5.0  SEVICES LIST ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicelist-1 .servicelist-head {
+        margin: 0px 0px 0px 0px;
+    }
+    /*----------  Service list 1 ----------*/
+    
+    .jx-rebuild-servicelist-2 .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /*----------  Service list 2 ----------*/
+    /*---------------------------------------------------------------
+			[6.0 PRICE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-price-1 {
+        margin-bottom: 40px;
+    }
+    .jx-rebuild-price > li {
+        margin: 0px 0px 40px 0px;
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[7.0 BLOG ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-blog-1 .date-position {
+        top: 88px;
+    }
+    .jx-rebuild-blog-1 .title {
+        font-size: 16px;
+    }
+    .jx-rebuild-blog-1 .blog-item {
+        margin-bottom: 40px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title a {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta {
+        height: auto !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-author-box {
+        height: 300px !important;
+        padding: 20px !important;
+    }
+    /*----------- Blog Style #  1------------*/
+    
+    .jx-rebuild-blog-2 .title {
+        font-size: 14px !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        top: 87px !important;
+        height: 115px !important;
+    }
+    .jx-rebuild-blog-2 .blog-item {
+        margin-bottom: 50px !important;
+    }
+    /*----------- Blog Style #  2------------*/
+    
+    ul.comments li {
+        padding: 10px 0px 0px 80px;
+    }
+    ul.comments li .img-thumbnail {
+        margin-left: -80px;
+    }
+    ul.comments li ul li {
+        padding-left: 0px;
+    }
+    ul.comments li .img-thumbnail {
+        margin-left: -80px;
+    }
+    ul.comments li img.avatar {
+        height: 50px;
+        width: 50px;
+    }
+    ul.comments .comment-block .date {
+        font-size: 12px;
+    }
+    /*----------- Blog Coments #  1------------*/
+    /*---------------------------------------------------------------
+			[8.0 NEWSLETTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-newsletter .white-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .darkgrey-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .darkgrey-column .title {
+        font-size: 16px;
+    }
+    .jx-rebuild-newsletter .content-box {
+        padding: 40px 30px 30px 30px;
+        height: auto;
+    }
+    .jx-rebuild-newsletter .white-column .title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .jx-rebuild-newsletter .white-column .sub-title {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    /*---------------------------------------------------------------
+			[9.0 FOOTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-footer-flickr ul li {
+        width: auto;
+    }
+    .jx-rebuild-footer-1 .jx-rebuild-sub-footer {
+        height: auto;
+    }
+    .jx-rebuild-footer-1 .jx-rebuild-copy-right {
+        padding-top: 40px;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-sub-footer {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li a {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li i {
+        padding-top: 10px !important;
+        font-size: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-footer-social-icon ul {
+        padding: 43px 15px 40px 0px;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-copy-right {
+        text-align: center !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-footer-2 .widget {
+        border-right: none !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-footer-2 .widget {
+        padding: 35px 0px 0px !important;
+    }
+    /*--------- WEDGET REQUEST QUOTE-------------*/
+    
+    .jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+        width: 120px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+        width: 120px !important;
+    }
+    /*---------------------------------------------------------------
+			[10.0 TRSTIMONIALS ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-tetimonials-column {
+        width: 100% !important;
+    }
+    .jx-rebuild-testimonials-2 .image {
+        float: none;
+        display: inherit;
+        margin: 0px auto;
+    }
+    .jx-rebuild-testimonials-2 .name::before {
+        padding-top: 20px;
+    }
+    
+.jx-rebuild-tetimonials-2.jx-rebuild-x2 .description {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.jx-rebuild-tetimonials-2.jx-rebuild-x2 .name {
+    font-size: 20px;
+}
+
+.jx-rebuild-tetimonials-2 i {
+	font-size: 30px;
+}
+.jx-rebuild-tetimonials-2 {
+	padding: 30px 0px 30px 0px;
+}
+.jx-rebuild-tetimonials-2 .description {
+	font-size: 16px;
+}
+.jx-rebuild-tetimonials-3-column {
+    width: 100%;
+}
+.jx-rebuild-tetimonials-4 {
+    margin-bottom: 50px;
+}
+.jx-rebuild-tetimonials-5 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+    margin-left: 20px;
+}
+.jx-rebuild-tetimonials-5 {
+    margin-bottom: 40px;
+}
+    
+.jx-rebuild-tetimonials-6 {
+    margin-bottom: 50px;
+}
+    
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 220px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding-top: 7px;
+    }
+    .jx-rebuild-testimonial-slider .flex-direction-nav .flex-prev {
+        right: 50px;
+    }
+    .jx-rebuild-tetimonials-1 .jx-rebuild-testimonial-details .name {
+        font-size: 18px;
+    }
+    .jx-rebuild-tetimonials-1 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+        margin-right: 10px;
+    }
+    
+    /*---------------------------------------------------------------
+			[11.0 MEET OUR TEAM ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-team-member-1 .four.columns {
+        margin-bottom: 40px;
+    }
+    .jx-rebuild-team-member-4 {
+        padding-bottom: 20px !important;
+        display: inline-block;
+    }
+    /*---------------------------------------------------------------
+			[12.0 TABS ]
+		---------------------------------------------------------------*/
+    
+    .shortcode_tab_e ul.resp-tabs-list {
+        padding-top: 50px;
+    }
+    .shortcode_tab_e.jx-rebuild-white-tab li {
+        padding: 12px 17px 15px;
+    }
+    .shortcode_tab_e.jx-rebuild-white-tab.jx-rebuild-arrow-tab ul li {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[14.0 BREADCRUMB ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-page-subhead .breadcrumb-right {
+        padding: 3px 0px 3px 20px;
+        margin-top: 20px;
+    }
+    .jx-rebuild-breadcrumb {
+        margin-top: 0px !important;
+    }
+    /*---------------------------------------------------------------
+			[15.0 HEADER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-topbar {
+        display: none;
+    }
+    .nav_container {
+        display: none;
+    }
+    .jx-rebuild-top-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block !important;
+    }
+    .jx-rebuild-sticky.fixed {
+        display: none;
+    }
+    .jx-rebuild-menu-holder {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .jx-rebuild-header {
+        height: 100px !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 15px 0px 0px !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo img {
+        width: 220px !important;
+    }
+    /*------------ Breducrumb -----------*/
+    
+    .jx-rebuild-titlebar {
+        height: 150px;
+        padding-top: 0px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb {
+        font-size: 13px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb span {
+        font-size: 13px;
+        padding: 10px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb a {
+        padding: 10px 10px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-right {
+        right: -600px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-left {
+        left: -450px;
+    }
+    /*---------------------------------------------------------------
+			[16.0 PROCESS ]
+		---------------------------------------------------------------*/
+    
+    .container.container-margin .four.columns {
+        width: 100% !important;
+    }
+    /*---------------------------------------------------------------
+			[17.0 COLUMNS ]
+		---------------------------------------------------------------*/
+    
+    .twelve.columns {
+        width: 100% !important;
+    }
+    /*---------------------------------------------------------------
+			[19.0 PATNER LOGO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-partner-logo {
+        padding-bottom: 50px;
+        display: inline;
+    }
+    .jx-rebuild-partner-logo ul li {
+        width: 300px;
+    }
+    .sixteen.columns .jx-rebuild-partner-logo li {
+        width: 100%;
+    }
+    
+    .jx-rebuild-partner-logo ul li {
+        width: 22% !important;
+    }
+    
+    /*---------------------------------------------------------------
+		[18.0 CONTACT ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-contact-info .line-icon {
+        font-size: 25px;
+    }
+    .jx-rebuild-contact-info .title {
+        font-size: 18px;
+        line-height: 25px;
+        padding-bottom: 3px;
+    }
+    .jx-rebuild-contact-info .item-position {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 40px;
+    }
+    .jx-rebuild-contact-form .contact-full-name,
+    .jx-rebuild-contact-form .contact-email {
+        width: 100%;
+    }
+    .jx-rebuild-contact-form .contact-full-name {
+        float: none;
+        margin-right: 0px;
+    }
+    /*---------------------------------------------------------------
+			[21.0  SIDEBAR ]
+		---------------------------------------------------------------*/
+    
+    #sidebar {
+        margin-top: 50px;
+    }
+    /*---------------------------------------------------------------
+			[22.0 CONTENT BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[23.0 PROJECT VIEW ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-nav .jx-rebuild-project-title {
+        font-size: 16px;
+    }
+    /*---------------------------------------------------------------
+			[24.0 PROTFOLIO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li {
+        line-height: 40px;
+    }
+    .jx-rebuild-portfolio-grid {
+        height: auto;
+    }
+    .grid-item-width2 {
+        width: 100%;
+    }
+    .grid-item-width3 {
+        width: 100%;
+    }
+    .grid-item-width4 {
+        width: 100%;
+    }
+    .grid-item-height2 {
+        height: 334px;
+    }
+    .grid-item-height3 {
+        height: 334px;
+    }
+    .grid-item-height4 {
+        height: 334px;
+    }
+    .grid-item.gird-item-top {
+        top: auto;
+    }
+    /*---------------------------------------------------------------
+		[25.0 SLIDER ]
+		---------------------------------------------------------------*/
+    /* Revolution Slider */
+    
+    .jx-rebuild-caption-big-1 {
+        height: 50px;
+        font-family: oswald;
+        color: #fff;
+        line-height: 50px !important;
+        font-size: 20px !important;
+        top: 50px !important;
+    }
+    .jx-rebuild-caption-big-icon {
+        left: 185px !important;
+        top: 50px !important;
+    }
+    .tp-caption {
+        white-space: normal;
+        margin-left: 90px !important;
+    }
+    .jx-rebuild-caption-big-icon i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px !important;
+        font-size: 20px !important;
+    }
+    .jx-rebuild-caption-big-2 {
+        width: 275px;
+        padding: 15px !important;
+        line-height: 1.2 !important;
+        font-size: 13px !important;
+        font-family: raleway;
+        top: 110px !important;
+    }
+    /*---------------------------------------------------------------
+		[26.0 Image Placholder ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-image-placholder.jx-rebuild-image-wrapper {
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 100%;
+    }
+    .jx-rebuild-service-completed-prjcts .jx-rebuild-completed-prjcts-item {
+        margin-bottom: 30px;
+    }
+    /*---------------------------------------------------------------
+		[27.0 Content Box ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+        color: #CCC;
+        font-size: 60px;
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+    /*---------------------------------------------------------------
+			[28.0 404 Page ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-error-page .jx-rebuild-error-msg h1 {
+        font-size: 24px;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 120px;
+    }
+    .jx-rebuild-error-page {
+        min-height: 300px;
+    }
+    /*---------------------------------------------------------------
+			[29.0 Process ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-process li {
+        margin-bottom: 46px;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step {
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        margin-top: -10px;
+        width: 50px;
+    }
+    .jx-rebuild-process-content {
+        padding-left: 80px !important;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step div::after {
+        top: 0px;
+        left: 0px;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+    .jx-rebuild-process .vertical-line {
+        height: 510px;
+        background: #333 none repeat scroll 0% 0%;
+        width: 2px;
+        position: absolute;
+        top: 148px;
+        left: 75px;
+        z-index: 0;
+    }
+    /*---------------------------------------------------------------
+		[30.0 Project in Progress ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-progress .jx-rebuild-project-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image img {
+        width: 100%;
+        height: 194px;
+    }
+    .jx-rebuild-project-progress .item {
+        margin-bottom: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+        width: 170px;
+        left: -60px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image {
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .progress {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage {
+        bottom: 5px;
+        left: 10px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .image-hover {
+        width: 170px;
+        left: -60px;
+    }
+    /*---------------------------------------------------------------
+			[31.0 BUTTON ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-alert-notification .alert-btn {
+        padding: 7px 10px !important;
+    }
+    .jx-rebuild-alert-notification .alert-with-two-button.jx-rebuild-alert-warning {
+        font-size: 14px !important;
+    }
+    /*---------------------------------------------------------------
+		[1.0 Animated Heading ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-animated-heading h1 {
+        font-size: 20px !important;
+    }
+    /*---------------------------------------------------------------
+		[1.0 BANNER ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-banner-fx-grid figure {
+        min-width: 220px;
+        max-width: 480px;
+        max-height: 260px;
+    }
+    figure.effect-lily figcaption > div {
+        padding: 0px 20px;
+    }
+    /*---------------------------------------------------------------
+		[1.0 PARTNER LOGO LIST ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-partner-logo-list .logo-position {
+        min-width: 100%;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    /*---------------------------------------------------------------
+		[1.0 V TIME LINE ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-v-timeline .date-position {
+        float: none;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-v-timeline .item-position {
+        margin-left: 0px;
+    }
+    /*---------------------------------------------------------------
+		[1.0 Grid Counter ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-grid-counter .count {
+        text-align: center !important;
+    }
+    .jx-grid-count .title {
+        float: none;
+        text-align: center
+    }
+    .jx-grid-count .count {
+        float: none;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 50px;
+    }
+}
+/* #iPad (Landscape) and (Portrait)
+================================================== */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /*---------------------------------------------------------------
+		[1.0 Tagline Box ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-tagline-box h3 {
+        font-size: 35px !important;
+    }
+    .jx-rebuild-tagline-box h2 {
+        font-size: 24px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"] {
+        width: 240px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+        width: 240px !important;
+    }
+    .jx-rebuild-tagline-box-1 h3 {
+        font-size: 28px !important;
+    }
+    .jx-rebuild-tagline-box-1 h2 {
+        font-size: 34px !important;
+    }
+    .jx-rebuild-tagline-box-1 .button {
+        font-size: 14px !important;
+    }
+    /*----- Tagline Box 1 Style #1 -----*/
+    
+    .jx-rebuild-tagline-box-3 .button {
+        font-size: 14px !important;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h4 {
+        font-size: 24px !important;
+    }
+    .jx-rebuild-shape-right {
+        width: 510px !important;
+    }
+    .jx-rebuild-shape-left {
+        width: 480px !important;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h2 {
+        font-size: 20px !important;
+    }
+    /*----- Tagline Box 3 Style #3 -----*/
+    /*---------------------------------------------------------------
+		[2.0 COUNT UP ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-counter-up .count_number {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .jx-rebuild-counter-up .counter_text {
+        font-size: 20px;
+    }
+    .countup_hr {
+        width: 110px;
+    }
+    /* Style #2 */
+    
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span {
+        margin: 0px 5px;
+        padding: 0px 13px;
+        font-size: 60px;
+        line-height: 100px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span.comma {
+        bottom: -10px;
+    }
+    .jx-rebuild-counter-up-box span {
+        width: 60px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 70px;
+        margin-left: 10px;
+    }
+    .jx-rebuild-shape-left.jx-rebuild-shape-small {
+        width: 365px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 20px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 90px;
+        margin-left: 10px;
+    }
+    /*---------------------------------------------------------------
+			[3.0 SECTION TITLE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-section-title-1 .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-left-border {
+        margin-top: 4px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-right-border {
+        margin-top: 4px !important;
+    }
+    /*-------- Section Title Style 1 ---------*/
+    
+    .jx-rebuild-section-title-2 .jx-rebuild-title {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    /*-------- Section Title Style 2 ---------*/
+    
+    .jx-rebuild-section-title-3 .jx-rebuild-title {
+        font-size: 18px !important;
+        margin-bottom: 3px !important;
+        line-height: 20px !important;
+    }
+    /*-------- Section Title Style 3 ---------*/
+    
+    .jx-rebuild-section-title-5 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 5 ---------*/
+    
+    .jx-rebuild-section-title-6 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 6 ---------*/
+    
+    .jx-rebuild-section-title-7 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 7 ---------*/
+    /*---------------------------------------------------------------
+		[5.0  SEVICES LIST ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicelist-2 .title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    /*----------  Service list 2 ----------*/
+    /*---------------------------------------------------------------
+		[6.0 PRICE ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-price-1 .title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .jx-rebuild-price-1 .price {
+        font-size: 60px;
+        line-height: 60px;
+        padding: 30px 0px 15px;
+    }
+    .jx-rebuild-price-1 .price span.top {
+        font-size: 30px;
+        top: -25px;
+    }
+    .jx-rebuild-price-1 .price span {
+        font-size: 30px;
+    }
+    .jx-rebuild-price-1 .jx-rebuild-button .price-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .jx-rebuild-price > li {
+        margin: 0px 22px 20px 0px;
+    }
+    /*---------------------------------------------------------------
+		[7.0 BLOG ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-blog-1 .date-position {
+        top: 87px;
+    }
+    .jx-rebuild-blog-1 .title {
+        font-size: 16px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title a {
+        font-size: 25px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-blog-meta {
+        height: 55px;
+        line-height: 55px;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        top: 88px !important;
+    }
+    .jx-rebuild-blog-2 .title {
+        font-size: 14px !important;
+        padding: 30px 20px 10px !important;
+    }
+    .jx-rebuild-blog-2 .hr-line {
+        border-right: 180px solid #000 !important;
+    }
+    /*---------------------------------------------------------------
+			[9.0 FOOTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-footer-2 .jx-rebuild-sub-footer {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li a {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li i {
+        padding-top: 10px !important;
+    }
+    /*--------- WEDGET REQUEST QUOTE-------------*/
+    
+    .jx-rebuild-widget-request-quote .number {
+        font-size: 30px !important;
+        line-height: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+        width: 85px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+        width: 85px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-quote-button a {
+        font-size: 18px !important;
+        padding: 12px 0px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-big-iconed-button {
+        width: 170px !important;
+    }
+    /*--------- WEDGET RECENT POST-------------*/
+    
+    .jx-rebuild-footer-recent-post ul li {
+        margin: 0px 0px 14px;
+    }
+    /*--------- WEDGET FLICKR-------------*/
+    
+    .jx-rebuild-footer-flickr ul li {
+        height: 65px;
+        width: 29.7%;
+    }
+    /*--------- WEDGET TAGS FOOTER-------------*/
+    
+    .jx-rebuild-tags-footer ul li {
+        padding: 9px 10px;
+    }
+    /*---------------------------------------------------------------
+			[10.0 TRSTIMONIALS ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 179px;
+    }
+    .jx-rebuild-tetimonials-column {
+        width: 47.8% !important;
+    }
+    
+    .jx-rebuild-tetimonials-3-column {
+        width: 32.2%;
+    }
+    /*---------------------------------------------------------------
+		[11.0 MEET OUR TEAM ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-team-member-1 .name {
+        font-size: 18px;
+    }
+    .jx-rebuild-team-member-1 .post {
+        font-size: 14px;
+    }
+    .jx-rebuild-team-member-1 .plus-icon {
+        font-size: 30px;
+        height: 40px;
+        width: 40px;
+        margin: 0px auto;
+        padding-top: 9px;
+    }
+    .jx-rebuild-team-member-1 .content-position {
+        padding-left: 50px;
+    }
+    .jx-rebuild-team-member-1 .team-social {
+        margin-left: 50px;
+    }
+    /*---------------------------------------------------------------
+			[15.0 HEADER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-topbar {
+        display: none;
+    }
+    .nav_container {
+        display: none;
+    }
+    .jx-rebuild-top-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block !important;
+    }
+    .jx-rebuild-sticky.fixed {
+        display: none;
+    }
+    .jx-rebuild-menu-holder {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .jx-rebuild-header {
+        height: 100px !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 15px 0px 0px !important;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-right {
+        right: -350px !important;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-left {
+        left: -250px !important;
+    }
+    /*---------------------------------------------------------------
+			[18.0 CONTACT ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-contact-info .title {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .jx-rebuild-contact-info .item-position {
+        width: 250px;
+    }
+    .jx-rebuild-contact-info .line-icon {
+        font-size: 25px;
+    }
+    .jx-rebuild-contact-form .contact-full-name,
+    .jx-rebuild-contact-form .contact-email {
+        width: 49.3%;
+        float: left;
+        display: inline;
+    }
+    .jx-rebuild-contact-info .phone,
+    .jx-rebuild-contact-info .fax,
+    .jx-rebuild-contact-info .date-time,
+    .jx-rebuild-contact-info .address {
+        font-size: 12px !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*---------------------------------------------------------------
+			[20.0 HOME SLIDER ]
+		---------------------------------------------------------------*/
+    
+    .tp-simpleresponsive .caption,
+    .tp-simpleresponsive .tp-caption {
+        margin-left: 130px !important;
+    }
+    /*---------------------------------------------------------------
+			[21.0  SIDEBAR ]
+		---------------------------------------------------------------*/
+    
+    .container.with-sidebar .four.columns {
+        width: 280px;
+    }
+    /*---------------------------------------------------------------
+			[24.0 PROTFOLIO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li {
+        line-height: 40px;
+    }
+    .jx-rebuild-portfolio-grid {
+        height: auto;
+    }
+    .grid-item-width2 {
+        width: 50%;
+    }
+    .grid-item-width3 {
+        width: 50%;
+    }
+    .grid-item-width4 {
+        width: 50%;
+    }
+    .grid-item-height2 {
+        height: 334px;
+    }
+    .grid-item-height3 {
+        height: 334px;
+    }
+    .grid-item-height4 {
+        height: 334px;
+    }
+    .grid-item.gird-item-top {
+        top: auto;
+    }
+    /*---------------------------------------------------------------
+			[27.0 Content Box ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+        color: #CCC;
+        font-size: 40px;
+        position: absolute;
+        right: 5px;
+        bottom: 30px;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item h5 {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item a {
+        font-size: 16px;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item {
+        width: 100% !important;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 32.1% !important;
+    }
+    .jx-rebuild-service-footer-box .jx-rebuild-title {
+        font-size: 22px !important;
+    }
+    /*---------------------------------------------------------------
+			[28.0 404 Page ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-error-page .jx-rebuild-error-msg h1 {
+        font-size: 50px;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 280px;
+    }
+    /*---------------------------------------------------------------
+			[29.0 Process ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-process li {
+        margin-bottom: 65px;
+    }
+    /*---------------------------------------------------------------
+		[30.0 Project in Progress ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-progress .jx-rebuild-project-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image img {
+        width: 100%;
+        height: 194px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+        width: 170px;
+        left: -60px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image {
+        height: 296px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-bg-alternate li {
+        font-size: 15px;
+        padding: 7px 10px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .jx-rebuild-percentage {
+        bottom: 20px;
+        left: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /*---------------------------------------------------------------
+		[1.0 Tagline Box ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-tagline-box h3 {
+        font-size: 30px !important;
+    }
+    .jx-rebuild-tagline-box h2 {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="text"] {
+        width: 180px !important;
+    }
+    .jx-rebuild-tagline-box .jx-rebuild-newsletter-box input[type="email"] {
+        width: 180px !important;
+    }
+    .jx-rebuild-tagline-box-1 h3 {
+        font-size: 23px !important;
+        line-height: 25px !important;
+    }
+    .jx-rebuild-tagline-box-1 h2 {
+        font-size: 29px !important;
+        line-height: 32px !important;
+        padding-top: 5px !important;
+    }
+    .jx-rebuild-tagline-box-1 .button {
+        font-size: 14px !important;
+        padding: 15px 15px !important;
+    }
+    .jx-rebuild-tagline-box-1 {
+        padding: 50px 0px 25px !important;
+    }
+    /*----- Tagline Box 1 Style #1 -----*/
+    
+    .jx-rebuild-tagline-box-2 h2 {
+        font-size: 25px;
+    }
+    .jx-rebuild-tagline-box-2 .button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    /*----- Tagline Box 1 Style #2 -----*/
+    
+    .jx-rebuild-tagline-box-3 .button {
+        font-size: 13px;
+        padding: 10px 15px;
+        margin-top: 30px;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h4 {
+        font-size: 20px;
+    }
+    .jx-rebuild-shape-right {
+        width: 370px;
+    }
+    .jx-rebuild-shape-left {
+        width: 420px;
+    }
+    .jx-rebuild-tagline-box-3 .box-content h2 {
+        font-size: 20px !important;
+    }
+    /*----- Tagline Box 3 Style #3 -----*/
+    /*---------------------------------------------------------------
+		[2.0 COUNT UP ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-counter-up .count_number {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .jx-rebuild-counter-up .counter_text {
+        font-size: 20px;
+    }
+    .countup_hr {
+        width: 110px;
+    }
+    /* Style #2 */
+    
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span {
+        margin: 0px 3px;
+        padding: 0px 10px;
+        font-size: 50px;
+        line-height: 75px;
+    }
+    .jx-rebuild-counter-up-2 .jx-rebuild-count span.comma {
+        bottom: -10px;
+    }
+    .jx-rebuild-counter-up-box span {
+        width: 60px;
+        height: 100px;
+        line-height: 100px;
+        font-size: 70px;
+        margin-left: 10px;
+    }
+    .jx-rebuild-shape-left.jx-rebuild-shape-small {
+        width: 238px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 20px;
+    }
+    .jx-rebuild-counter-up-box span.comma {
+        width: 20px;
+        height: 90px;
+        line-height: 90px;
+        font-size: 90px;
+        margin-left: 10px;
+    }
+    /*---------------------------------------------------------------
+			[3.0 SECTION TITLE ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-section-title-1 .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-left-border {
+        margin-top: 4px !important;
+    }
+    .jx-rebuild-section-title-1 .jx-rebuild-right-border {
+        margin-top: 4px !important;
+    }
+    /*-------- Section Title Style 1 ---------*/
+    
+    .jx-rebuild-section-title-2 .jx-rebuild-title {
+        font-size: 22px !important;
+        line-height: 30px !important;
+    }
+    /*-------- Section Title Style 2 ---------*/
+    
+    .jx-rebuild-section-title-3 .jx-rebuild-title {
+        font-size: 18px !important;
+        margin-bottom: 3px !important;
+        line-height: 20px !important;
+    }
+    /*-------- Section Title Style 3 ---------*/
+    
+    .jx-rebuild-section-title-5 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 5 ---------*/
+    
+    .jx-rebuild-section-title-6 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 6 ---------*/
+    
+    .jx-rebuild-section-title-7 .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    /*-------- Section Title Style 7 ---------*/
+    /*---------------------------------------------------------------
+			[4.0  SEVICES BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicebox-2 .jx-rebuild-servicebox-item .jx-rebuild-image-wrapper .jx-rebuild-image-title-over a {
+        font-size: 14px !important;
+    }
+    /*---------------------------------------------------------------
+			[5.0  SEVICES LIST ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-servicelist-1 .category {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /*----------  Service list 2 ----------*/
+    /*---------------------------------------------------------------
+		[6.0 PRICE ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-price > li {
+        margin: 0px 22px 20px 0px;
+        width: 360px;
+    }
+    
+    .jx-rebuild-price-4 .price::after {
+        border-width: 50px 154px 0 154px;
+    }
+
+    /*---------------------------------------------------------------
+		[7.0 BLOG ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-blog-1 .date-position {
+        top: 128px !important;
+    }
+    .jx-rebuild-blog-1 .title {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-blog-1 .one-third.columns {
+        width: 360px !important;
+    }
+    .jx-rebuild-blog-1 .blog-item {
+        margin-bottom: 20px !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title a {
+        font-size: 25px !important;
+    }
+    .jx-rebuild-blog-1 .jx-rebuild-blog-title-metabox .jx-rebuild-title {
+        font-size: 20px !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        top: 44px !important;
+    }
+    .jx-rebuild-blog-2 .blog-item {
+        margin-bottom: 12px !important;
+    }
+    .jx-rebuild-blog-2 .hr-line {
+        border-right: 150px solid #000 !important;
+    }
+    .jx-rebuild-blog-2 .title {
+        font-size: 12px !important;
+        padding: 35px 20px 10px !important;
+    }
+    /*---------------------------------------------------------------
+			[8.0 NEWSLETTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-newsletter .white-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .darkgrey-column {
+        width: 100%;
+    }
+    .jx-rebuild-newsletter .content-box {
+        padding: 50px 40px 0px;
+        height: 340px;
+    }
+    /*---------------------------------------------------------------
+			[9.0 FOOTER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-footer-1 .jx-rebuild-footer-logo {
+        width: 140px;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-footer-logo {
+        width: 140px !important;
+        margin-bottom: 10px !important;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-sub-footer {
+        height: auto !important;
+        min-height: auto !important;
+        padding-bottom: 20px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li a {
+        width: 32px !important;
+        height: 32px !important;
+    }
+    .jx-rebuild-footer-section .jx-rebuild-widget-social-icon ul li i {
+        padding-top: 8px !important;
+        font-size: 18px !important;
+    }
+    .jx-rebuild-footer-2 .jx-rebuild-copy-right {
+        padding-top: 24px !important;
+    }
+    /*--------- WEDGET REQUEST QUOTE-------------*/
+    
+    .jx-rebuild-widget-request-quote .number {
+        font-size: 25px !important;
+        line-height: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-left-border {
+        width: 60px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-right-border {
+        width: 60px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-quote-button a {
+        font-size: 14px !important;
+        padding: 7px 0px !important;
+    }
+    .jx-rebuild-widget-request-quote .jx-rebuild-big-iconed-button {
+        width: 120px !important;
+    }
+    /*--------- WEDGET RECENT POST-------------*/
+    
+    .jx-rebuild-widget-recent-post .image {
+        background: #999 none repeat scroll 0% 0%;
+        width: 66px;
+    }
+    .jx-rebuild-widget-recent-post .post-content {
+        padding-left: 80px;
+    }
+    .jx-rebuild-widget-recent-post ul li {
+        margin: 0px 0px 0px;
+        padding: 0px 0px 14px;
+    }
+    /*--------- WEDGET FLICKR-------------*/
+    
+    .jx-rebuild-footer-flickr ul li {
+        height: 49px;
+        width: 28.5%;
+    }
+    /*--------- WEDGET RECENT POST-------------*/
+    
+    .jx-rebuild-footer-recent-post .image {
+        width: 70px;
+        height: 51px;
+    }
+    .jx-rebuild-footer-recent-post .post-content {
+        padding-left: 80px;
+    }
+    /*---------------------------------------------------------------
+			[10.0 TRSTIMONIALS ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 177px;
+        margin: 0px;
+    }
+    .jx-rebuild-tetimonials-column {
+        width: 47.7% !important;
+    }
+    .jx-rebuild-tetimonials-3-column {
+        width: 32.0%;
+    }
+    .jx-rebuild-tetimonials-5 .jx-rebuild-testimonial-details .jx-rebuild-testimonial-image {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    
+    
+    
+    /*---------------------------------------------------------------
+			[11.0 MEET OUR TEAM ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-team-member-1 .four.columns {
+        width: 360px !important;
+        margin-bottom: 20px !important;
+    }
+    .jx-rebuild-team-member-4 .team-content-box .name {
+        font-size: 16px !important;
+    }
+    .jx-rebuild-team-member-4 .team-content-box .post {
+        font-size: 12px !important;
+        margin-bottom: 10px !important;
+    }
+    .jx-rebuild-team-member-4 .team-hover-icon {
+        padding-left: 22% !important;
+    }
+    /*---------------------------------------------------------------
+			[12.0 TABS ]
+		---------------------------------------------------------------*/
+    
+    .shortcode_tab_e.jx-rebuild-white-tab li {
+        padding: 12px 17px 15px;
+    }
+    /*---------------------------------------------------------------
+			[11.0 ACCORDING ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-accordion-3 .eight.columns {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[15.0 HEADER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-topbar {
+        display: none;
+    }
+    .nav_container {
+        display: none;
+    }
+    .jx-rebuild-top-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block !important;
+    }
+    .jx-rebuild-sticky.fixed {
+        display: none;
+    }
+    .jx-rebuild-menu-holder {
+        display: none;
+    }
+    .header-info {
+        display: none;
+    }
+    .jx-rebuild-header {
+        height: 100px !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 25px 0px 0px !important;
+    }
+    /*------------ Breducrumb -----------*/
+    
+    .jx-rebuild-titlebar {
+        height: 150px;
+        padding-top: 0px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb {
+        font-size: 20px;
+    }
+    .jx-rebuild-page-title .jx-rebuild-breaducrumb span {
+        font-size: 20px;
+        padding: 14px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-right {
+        right: -350px;
+        height: 150px;
+    }
+    .jx-rebuild-titlebar .jx-rebuild-shape-left {
+        left: -250px;
+        height: 150px;
+    }
+    /*---------------------------------------------------------------
+		[18.0 CONTACT ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-contact-info .title {
+        font-size: 14px !important;
+        line-height: 25px !important;
+    }
+    .jx-rebuild-contact-info .item-position {
+        width: 170px !important;
+    }
+    .jx-rebuild-contact-info .line-icon {
+        font-size: 25px !important;
+    }
+    .jx-rebuild-contact-info .phone,
+    .jx-rebuild-contact-info .fax,
+    .jx-rebuild-contact-info .date-time,
+    .jx-rebuild-contact-info .address {
+        font-size: 12px !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .jx-rebuild-contact-form .contact-full-name,
+    .jx-rebuild-contact-form .contact-email {
+        width: 49.3% !important;
+        float: left !important;
+        display: inline !important;
+    }
+    /*---------------------------------------------------------------
+			[19.0 PATNER LOGO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-partner-logo ul li {
+        width: 180px;
+    }
+    
+    .jx-rebuild-partner-logo ul li {
+        width: 22%;
+    }
+    
+    /*---------------------------------------------------------------
+			[20.0 HOME SLIDER ]
+		---------------------------------------------------------------*/
+    
+    .tp-simpleresponsive .caption,
+    .tp-simpleresponsive .tp-caption {
+        margin-left: 120px !important;
+    }
+    /*---------------------------------------------------------------
+			[21.0 SIDEBAR ]
+		---------------------------------------------------------------*/
+    
+    .container.with-sidebar .sixteen.columns {
+        width: 750px;
+    }
+    #sidebar {
+        padding-top: 50px;
+    }
+    /*---------------------------------------------------------------
+			[22.0 CONTENT BOX ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item {
+        width: 100%;
+    }
+    /*---------------------------------------------------------------
+			[23.0 PROJECT VIEW ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-nav .jx-rebuild-project-title {
+        font-size: 18px;
+    }
+    /*---------------------------------------------------------------
+			[24.0 PROTFOLIO ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-protfolio .jx-rebuild-portfolio-filter ul li {
+        line-height: 40px;
+    }
+    .jx-rebuild-portfolio-grid {
+        height: auto;
+    }
+    .grid-item-width2 {
+        width: 50%;
+    }
+    .grid-item-width3 {
+        width: 50%;
+    }
+    .grid-item-width4 {
+        width: 50%;
+    }
+    .grid-item-height2 {
+        height: 334px;
+    }
+    .grid-item-height3 {
+        height: 334px;
+    }
+    .grid-item-height4 {
+        height: 334px;
+    }
+    .grid-item.gird-item-top {
+        top: auto;
+    }
+    /*---------------------------------------------------------------
+		[25.0 SLIDER ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-caption-big-1 {
+        height: 50px;
+        font-family: oswald;
+        color: #fff;
+        line-height: 50px !important;
+        font-size: 30px !important;
+        top: 212px !important;
+    }
+    .jx-rebuild-caption-big-icon {
+        left: 220px !important;
+        top: 212px !important;
+    }
+    .tp-caption {
+        white-space: normal;
+    }
+    .jx-rebuild-caption-big-icon i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px !important;
+        font-size: 20px !important;
+    }
+    .jx-rebuild-caption-big-2 {
+        width: 353px;
+        padding: 20px !important;
+        line-height: 1.2 !important;
+        font-size: 15px !important;
+        font-family: raleway;
+    }
+    /*---------------------------------------------------------------
+			[27.0 Content Box ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-content-box .jx-rebuild-item i.bg-icon {
+        color: #CCC;
+        font-size: 60px !important;
+        position: absolute !important;
+        right: 20px !important;
+        bottom: 20px !important;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 32.1% !important;
+    }
+    .jx-rebuild-service-footer-box .jx-rebuild-title {
+        font-size: 18px !important;
+    }
+    .jx-rebuild-content-box .jx-rebuild-item h5 {
+        padding: 0px 20px 0px !important;
+    }
+    /*---------------------------------------------------------------
+			[28.0 404 Page ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-error-page .jx-rebuild-error-msg h1 {
+        font-size: 50px;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 280px;
+    }
+    /*---------------------------------------------------------------
+			[29.0 Process ]
+		---------------------------------------------------------------*/
+    
+    .jx-rebuild-process li {
+        margin-bottom: 46px;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step {
+        height: 50px;
+        line-height: 50px;
+        font-size: 30px;
+        margin-right: 30px;
+        margin-bottom: 40px;
+        margin-top: -10px;
+        width: 50px;
+    }
+    .jx-rebuild-process-content {
+        padding-left: 80px !important;
+    }
+    .jx-rebuild-process .jx-rebuild-process-step div::after {
+        top: 0px;
+        left: 0px;
+        width: 45px;
+        height: 45px;
+        line-height: 50px;
+        font-size: 30px;
+    }
+    .jx-rebuild-process .vertical-line {
+        height: 410px;
+        background: #333 none repeat scroll 0% 0%;
+        width: 2px;
+        position: absolute;
+        top: 148px;
+        left: 75px;
+        z-index: 0;
+    }
+    /*---------------------------------------------------------------
+		[30.0 Project in Progress ]
+	---------------------------------------------------------------*/
+    
+    .jx-rebuild-project-progress .jx-rebuild-project-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image img {
+        width: 100%;
+        height: auto;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+        width: 170px;
+        left: -60px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .count-number {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image span {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .progress {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .jx-rebuild-project-progress .eight.columns {
+        width: 580px;
+        margin: 0px 10%;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image {
+        margin-bottom: 20px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image .count-number {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-view-image span {
+        font-size: 70px;
+        line-height: 70px;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+.jx-rebuild-section-title-2.light .jx-rebuild-title {
+    color: #fff !important;
+}
+@media only screen and (max-width: 1200px) {
+    .slicknav_menu {
+        display: block !important;
+    }
+    .jx-rebuild-header {
+        height: 100px !important;
+    }
+    .menu {
+        height: auto !important;
+    }
+    .menu > li.no-mega > .submenu {
+        top: 0px !important;
+        position: relative !important;
+    }
+    .menu li .submenu li.col {
+
+        display: inline-block !important;
+        width: 100% !important;
+        float: none !important;
+    }
+    .menu > li:hover {
+        border-top: none !important;
+    }
+    .slicknav_nav,
+    .slicknav_nav ul {
+        overflow: unset !important;
+    }
+    .menu > li > .submenu,
+    .menu li .submenu li.col ul {
+        position: inherit !important;
+        top: 0 !important;
+        box-shadow: none !important;
+    }
+    .menu > li > .submenu,
+    .menu li .submenu li.col ul {
+        transform: none !important;
+        opacity: inherit !important;
+        visibility: inherit !important;
+    }
+    ul.menu li.menu-mega li.col {
+        float: left;
+        width: 25% !important;
+    }
+    .menu li .submenu li.col ul {
+        left: 0 !important;
+    }
+    .menu li .submenu li.col ul li {
+        width: 100% !important;
+    }
+    .jx-rebuild-header .jx-rebuild-header-logo {
+        padding: 15px 0 0 !important;
+    }
+    .tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.skrollable.skrollable-after,
+    .tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.skrollable.skrollable-between {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-2 {
+        height: auto !important;
+        max-height: inherit !important;
+    }
+    .jx-rebuild-service-content label {
+        float: left !important;
+        width: 96% !important;
+    }
+    .sbHolder {
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(204, 204, 204);
+        font-family: raleway;
+        font-size: 17px;
+        font-weight: normal;
+        height: 48px;
+        line-height: 48px;
+        margin-left: 0px !important;
+        position: relative;
+        width: 96% !important;
+        float: left !important;
+    }
+    .jx-rebuild-portfolio-columns.post-103.page.type-page.status-publish.hentry {
+        height: auto !important;
+    }
+    .jx-rebuild-testimonial-slider .flex-direction-nav a {
+        top: 27px !important;
+    }
+    .jx-rebuild-blog-2 .jx-rebuild-blog-image.flexslider.small-blog {
+        min-height: inherit !important;
+    }
+    .jx-rebuild-blog-2 .date-position {
+        height: 59px !important;
+        top: inherit !important;
+    }
+    .grid-item-height2 {
+        height: auto !important;
+        margin-bottom: 15px !important;
+    }
+    .tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.jx-caption-big-icon {
+        display: none !important;
+    }
+    .tp-caption.arrow-fontawesome.tp-resizeme {
+        display: none !important;
+    }
+    .jx-rebuild-accordion.jx-rebuild-accordion-border .title,
+    .jx-rebuild-accordion-3 .title {
+        height: auto !important;
+        line-height: 1.5 !important;
+        min-height: 45px !important;
+    }
+    .jx-rebuild-accordion-3 .circle .jx-rebuild-accordion-icon::after,
+    .jx-rebuild-accordion-3 .circle.plus_sign .jx-rebuild-accordion-icon::after,
+    .jx-rebuild-accordion-3 .circle.right_icon .jx-rebuild-accordion-icon::after,
+    .jx-rebuild-accordion.jx-rebuild-accordion-border .circle .jx-rebuild-accordion-icon::after {
+        border: none !important;
+        line-height: 45px !important;
+    }
+    .jx-rebuild-accordion-3.jx-doubled-width .circle .open > .title .jx-rebuild-accordion-icon::after,
+    .jx-rebuild-accordion-3.jx-doubled-width .circle .title .jx-rebuild-accordion-icon::after {
+        line-height: 45px !important;
+    }
+    .jx-rebuild-protfolio.portfolio_style_c .grid-item-width3 {
+        height: auto !important;
+        left: 0 !important;
+        margin-left: 20px !important;
+        position: inherit !important;
+        top: inherit !important;
+        width: 30% !important;
+        margin-right: 0px !important;
+    }
+    .tp-caption {
+        margin-left: 40px !important;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-1 {
+        font-size: 35px !important;
+        height: auto !important;
+        line-height: 56px !important;
+    }
+    .vc_col-sm-6 .jx-rebuild-partner-logo ul li {
+        width: 33% !important;
+    }
+    .jx-rebuild-footer-section .four.columns {
+        margin-bottom: 20px !important;
+        width: 47% !important;
+    }
+    #sidebar {
+        width: 96% !important;
+    }
+    .vc_col-sm-3 {
+        width: 50% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .jx-rebuild-protfolio.portfolio_style_c .grid-item-width3 {
+        left: 0 !important;
+        margin: 0px !important;
+        margin-bottom: 20px !important;
+        position: inherit !important;
+        top: inherit !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .jx-rebuild-footer-section .four.columns {
+        margin-bottom: 20px !important;
+        width: 100% !important;
+    }
+    .hades.tparrows {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .tparrows::before {
+        font-size: 15px !important;
+        line-height: 40px !important;
+    }
+    .jx-rebuild-partner-logo ul li {
+        width: 100% !important;
+    }
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-2 {
+        height: auto !important;
+        margin-left: 50px !important;
+        margin-top: -50px !important;
+        max-height: inherit !important;
+    }
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-1 {
+        margin-top: -50px !important;
+        margin-left: 50px !important;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-contents {
+        margin-top: 15px;
+        width: 100% !important;
+    }
+    .woocommerce-page.product-columns-3.has-right-sidebar ul.products li,
+    .woocommerce-page.product-columns-3.has-left-sidebar ul.products li,
+    .woocommerce #content div.product div.summary,
+    .woocommerce div.product div.summary,
+    .woocommerce-page #content div.product div.summary,
+    .woocommerce-page div.product div.summary,
+    .woocommerce #content div.product div.images,
+    .woocommerce div.product div.images,
+    .woocommerce-page #content div.product div.images,
+    .woocommerce-page div.product div.images {
+        width: 100% !important;
+    }
+    .woocommerce .cart-collaterals .cross-sells,
+    .woocommerce-page .cart-collaterals .cross-sells,
+    .woocommerce .cart-collaterals .cart_totals,
+    .woocommerce-page .cart-collaterals .cart_totals {
+        width: 100% !important;
+    }
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last {
+        width: 100% !important;
+    }
+    .vc_col-sm-3 {
+        width: 100% !important;
+    }
+    .woocommerce .col2-set .col-1,
+    .woocommerce-page .col2-set .col-1,
+    .woocommerce .col2-set .col-2,
+    .woocommerce-page .col2-set .col-2 {
+        float: left;
+        width: 100% !important;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image,
+    .jx-rebuild-project-progress .jx-rebuild-project-image img {
+        width: 100% !important;
+        height: auto !important;
+    }
+    .jx-rebuild-project-progress .jx-rebuild-project-image .image-hover {
+        left: -87px !important;
+    }
+    .vc_col-sm-6 .jx-rebuild-partner-logo ul li {
+        width: 50% !important;
+    }
+    .jx-rebuild-accordion-3.jx-doubled-width .circle .title .jx-rebuild-accordion-icon::after {
+        width: 40px !important;
+    }
+    .jx-rebuild-section-title-3 {
+        margin-bottom: 20px !important;
+    }
+    .jx-rebuild-accordion-3.jx-doubled-width .circle .title .jx-rebuild-accordion-icon::after {
+        margin-right: 0px !important;
+    }
+    .jx-rebuild-servicelist-1 {
+        margin-top: 20px !important;
+    }
+    table.style_b td {
+        padding: 3px !important;
+        font-size: 13px !important;
+        line-height: 21px !important;
+    }
+    .jx-rebuild-testimonial-slider {
+        height: auto !important;
+    }
+    .jx-rebuild-padding {
+        padding: 20px 0px !important;
+    }
+}
+@media only screen and (max-width: 630px) {
+    ul.menu li.menu-mega li.col {
+        display: block !important;
+        float: left;
+        width: 100% !important;
+    }
+    .jx-rebuild-completed-prjcts-item {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-1 {
+        font-size: 16px !important;
+        height: auto !important;
+        line-height: 26px !important;
+        margin-left: 58px !important;
+    }
+    .jx-rebuild-breadcrumb {
+        margin-top: 0px !important;
+    }
+    .jx-rebuild-page-title {
+        margin-bottom: 25px !important;
+    }
+    .jx-rebuild-page-title a {
+        font-size: 15px !important;
+        padding: 10px !important;
+    }
+    .jx-rebuild-titlebar {
+        height: auto !important;
+    }
+    .jx-rebuild-page-title span {
+        font-size: 15px !important;
+        line-height: 30px !important;
+        padding: 10px !important;
+    }
+    .shortcode_tab_e li,
+    .shortcode_tab_e li.resp-tab-active {
+        padding: 12px 4px 14px !important;
+        margin: 0 !important;
+    }
+    .jx-rebuild-team-member-6.jx-rebuild-white-team-bg .eight.columns,
+    .jx-rebuild-team-member-4 .four.columns {
+        width: 95% !important;
+    }
+    .jx-rebuild-team-member-6 .team-content-box {
+        padding: 150px 15px 0 !important;
+    }
+    .jx-rebuild-accordion.jx-rebuild-accordion-border .title {
+        height: auto !important;
+        line-height: 1.5 !important;
+    }
+    .jx-rebuild-accordion-3 .circle .head {
+        margin-bottom: 10px !important;
+    }
+    .woocommerce-cart.woocommerce-page table.cart td.actions .coupon .input-text {
+        width: 140px !important;
+    }
+    .jx-rebuild-error-page .jx-rebuild-error-code {
+        font-size: 100px !important;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .jx-rebuild-accordion-3 .title {
+        line-height: 1.5 !important;
+        min-height: 45px !important;
+        height: auto !important;
+    }
+    .jx-rebuild-accordion-3 .circle .jx-rebuild-accordion-icon::after,
+    .jx-rebuild-accordion-3 .circle.plus_sign .jx-rebuild-accordion-icon::after,
+    .jx-rebuild-accordion-3 .circle.right_icon .jx-rebuild-accordion-icon::after {
+        height: auto !important;
+    }
+    .jx-rebuild-accordion .circle .title {
+        font-size: 16px !important;
+    }
+    .woocommerce-cart.woocommerce-page table.cart td.actions .coupon .input-text {
+        width: 100% !important;
+        margin-bottom: 12px !important;
+    }
+    .woocommerce-page .woocommerce #respond input#submit,
+    .woocommerce-page .woocommerce a.button,
+    .woocommerce-page .woocommerce button.button,
+    .woocommerce-page .woocommerce input.button {
+        width: 100% !important;
+    }
+    .woocommerce .shop_table.cart .quantity .product_quantity_minus,
+    .woocommerce .shop_table.cart .quantity .product_quantity_plus {
+        display: -moz-stack !important;
+        height: 47px !important;
+        padding: 3px 5px 3px 6px !important;
+        width: 42px !important;
+    }
+    .jx-rebuild-partner-logo ul li {
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-2 {
+        font-size: 12px !important;
+        height: auto !important;
+        margin-left: 0 !important;
+        margin-top: -30px !important;
+        max-height: inherit !important;
+        max-width: 290px !important;
+        min-width: 100% !important;
+        width: 300px !important;
+    }
+    .tp-caption.Fashion-BigDisplay.tp-resizeme.jx-caption-big-1 {
+        font-size: 16px !important;
+        height: auto !important;
+        line-height: 26px !important;
+        margin-left: 50px !important;
+        margin-top: -50px !important;
+    }
+    .jx-rebuild-accordion-3 .title {
+        height: auto !important;
+    }
+    .jx-rebuild-accordion-3.jx-doubled-width .title {
+        font-size: 13px !important;
+    }
+    .jx-rebuild-section-title-1.light .jx-rebuild-title {
+        color: #333 !important;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .jx-rebuild-team-member-1 img {
+        width: auto !important;
+    }
+    .jx-rebuild-team-member-1 .team-content-box {
+        width: 93% !important;
+    }
+    .jx-rebuild-project-progress .container .eight.columns,
+    .jx-rebuild-project-progress .container .one-third.columns {
+        width: 270px !important;
+    }
+}
+/* START Make the cart table responsive */
+/* http://css-tricks.com/responsive-data-tables/ */
+
+@media screen and (max-width: 767px) {
+    .woocommerce a.remove {
+        display: -moz-stack !important;
+    }
+    .woocommerce-page table.shop_table tr:last-child {
+        height: 190px !important;
+    }
+    .product-thumbnail > a {
+        display: -moz-inline-stack;
+        margin-left: 20px;
+    }
+    .woocommerce-page table.shop_table tr {
+        display: block !important;
+        height: 450px !important;
+    }
+    .shop_table.cart tr:nth-child(2) {
+        height: auto !important;
+    }
+    /* Force table to not be like tables anymore */
+    
+    .woocommerce-page table.shop_table,
+    .woocommerce-page table.shop_table thead,
+    .woocommerce-page table.shop_table tbody,
+    .woocommerce-page table.shop_table th,
+    .woocommerce-page table.shop_table td,
+    .woocommerce-page table.shop_table tr {
+        display: block;
+    }
+    /* Hide table headers (but not display: none;, for accessibility) */
+    
+    .woocommerce-page table.shop_table thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .woocommerce-page table.shop_table tr {
+        /*border: 1px solid #d2d3d3; */
+    }
+    .woocommerce-page table.shop_table td {
+        /* Behave  like a "row" */
+        
+        border: 1px solid #d2d3d3;
+        position: relative;
+        padding-left: 30% !important;
+    }
+    .woocommerce-page table.shop_table {
+        border: none;
+    }
+    .woocommerce-page table.shop_table td.product-spacer {
+        border-color: #FFF;
+        height: 10px;
+    }
+    .woocommerce-page table.shop_table td:before {
+        /* Now like a table header */
+        
+        position: absolute;
+        /* Top/left values mimic padding */
+        
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    /*
+Label the data
+*/
+    
+    .woocommerce-page table.shop_table td.product-remove:before {
+        content: "DELETE";
+    }
+    .woocommerce-page table.shop_table td.product-thumbnail:before {
+        content: "IMAGE";
+    }
+    .woocommerce-page table.shop_table td.product-name:before {
+        content: "PRODUCT";
+    }
+    .woocommerce-page table.shop_table td.product-price:before {
+        content: "PRICE";
+    }
+    .woocommerce-page table.shop_table td.product-quantity:before {
+        content: "QUANTITY";
+    }
+    .woocommerce-page table.shop_table td.product-subtotal:before {
+        content: "SUBTOTAL";
+    }
+    .woocommerce-page table.shop_table td.product-total:before {
+        content: "TOTAL";
+    }
+    .woocommerce .quantity,
+    .woocommerce #content .quantity,
+    .woocommerce-page .quantity,
+    .woocommerce-page #content .quantity {
+        margin: 0;
+    }
+    .woocommerce-page table.cart td.actions,
+    .woocommerce-page #content table.cart td.actions {
+        text-align: left;
+        border: 0;
+        padding-left: 6px !important;
+    }
+    .woocommerce-page table.cart td.actions .button.alt,
+    .woocommerce-page #content table.cart td.actions .button.alt {
+        float: left;
+        margin-top: 10px;
+    }
+    .woocommerce-page table.cart td.actions div,
+    .woocommerce-page #content table.cart td.actions div,
+    .woocommerce-page table.cart td.actions input,
+    .woocommerce-page #content table.cart td.actions input {
+        margin-bottom: 10px;
+    }
+    .woocommerce-page .cart-collaterals .cart_totals {
+        float: left;
+        width: 100%;
+        text-align: left;
+    }
+    .woocommerce-page .cart-collaterals .cart_totals th,
+    .woocommerce-page .cart-collaterals .cart_totals td {
+        border: 0 !important;
+    }
+    .woocommerce-page .cart-collaterals .cart_totals table tr.cart-subtotal td,
+    .woocommerce-page .cart-collaterals .cart_totals table tr.shipping td,
+    .woocommerce-page .cart-collaterals .cart_totals table tr.total td {
+        padding-left: 6px !important;
+    }
+    .woocommerce-page table.shop_table tr.cart-subtotal td,
+    .woocommerce-page table.shop_table tr.shipping td,
+    .woocommerce-page table.shop_table tr.total td,
+    .woocommerce-page table.shop_table.order_details tfoot th,
+    .woocommerce-page table.shop_table.order_details tfoot td {
+        padding-left: 6px !important;
+        border: 0 !important;
+    }
+    .woocommerce-page table.shop_table tbody {
+        padding-top: 10px;
+    }
+    .woocommerce .col2-set .col-1,
+    .woocommerce-page .col2-set .col-1,
+    .woocommerce .col2-set .col-2,
+    .woocommerce-page .col2-set .col-2,
+    .woocommerce form .form-row-first,
+    .woocommerce form .form-row-last,
+    .woocommerce-page form .form-row-first,
+    .woocommerce-page form .form-row-last {
+        float: none;
+        width: 100%;
+    }
+    .woocommerce .order_details ul,
+    .woocommerce-page .order_details ul,
+    .woocommerce .order_details,
+    .woocommerce-page .order_details {
+        padding: 0;
+    }
+    .woocommerce .order_details li,
+    .woocommerce-page .order_details li {
+        clear: left;
+        margin-bottom: 10px;
+        border: 0;
+    }
+}
+/* END Make the cart table responsive */
